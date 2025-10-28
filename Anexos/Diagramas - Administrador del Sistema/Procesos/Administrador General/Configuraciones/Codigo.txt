@@ -1,0 +1,30 @@
+graph TD;
+    A[Start] --> B[Access Configuration Module]
+    B --> C{What configuration do you want to modify?}
+    C -- "Template Management" --> D[List existing templates]
+    D --> E{What action to perform?}
+    E -- "Create new template" --> F[Define fields and layout]
+    F --> G[Save template]
+    G --> Z[End]
+    E -- "Edit template" --> H[Select template to modify]
+    H --> I[Update fields and layout]
+    I --> G
+    E -- "Delete template" --> J[Confirm deletion]
+    J --> K[Delete template permanently]
+    K --> Z
+    C -- "Template Assignment" --> L[Select institution]
+    L --> M[Assign template to institution]
+    M --> N[Confirm assignment]
+    N --> Z
+    C -- "System Settings" --> O[Modify global parameters]
+    O --> P[Save changes]
+    P --> Z
+    C -- "Administrator Account Management" --> Q[List existing administrators]
+    Q --> R{What action to perform?}
+    R -- "Edit administrator data" --> S[Select administrator]
+    S --> T[Update information]
+    T --> Z
+    R -- "Disable administrator" --> U[Confirm disable]
+    U --> V[Revoke access]
+    V --> Z
+    Z[End]

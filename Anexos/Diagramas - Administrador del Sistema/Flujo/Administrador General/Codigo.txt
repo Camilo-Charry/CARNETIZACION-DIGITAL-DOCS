@@ -1,0 +1,38 @@
+flowchart TD
+  %% Inicio de sesión del Administrador General
+  A["Inicio: Login Administrador General"] --> B{"¿Credenciales válidas?"}
+  B -- No --> X["Mostrar error y solicitar reintento"] --> A
+  B -- Sí --> C["Acceder al Panel de Control"]
+
+  %% Menú Principal
+  C --> D{"¿Qué acción desea realizar?"}
+  D -- Gestionar Solicitudes --> E["Revisar Solicitudes de Nuevas Instituciones"]
+  D -- Gestionar Instituciones --> F["Administrar Instituciones Existentes"]
+  D -- Reportes y Auditoría --> G["Generar Reportes y Consultar Historial"]
+  D -- Configuraciones --> H["Administrar Plantillas y Ajustes"]
+  D -- Cerrar Sesión --> I["Finalizar Sesión"]
+
+  %% Gestión de Solicitudes
+  E --> J{"¿Solicitud válida?"}
+  J -- Sí --> K["Aprobar institución y crear cuenta de Administrador"] --> M["Enviar notificación de aprobación"]
+  J -- No --> L["Rechazar solicitud con motivo"] --> N["Enviar notificación de rechazo"]
+
+  %% Gestión de Instituciones
+  F --> O{"¿Qué acción realizar?"}
+  O -- Editar Datos --> P["Modificar información de la institución"]
+  O -- Suspender --> Q["Revocar acceso y archivar datos"]
+  O -- Eliminar --> R["Eliminar institución definitivamente"] --> S["Eliminar cuentas asociadas y registros"]
+
+  %% Reportes y Auditoría
+  G --> Y{"¿Qué tipo de reporte generar?"}
+  Y -- Instituciones Registradas --> Z["Exportar reporte en PDF/Excel"]
+  Y -- Historial de Actividad --> AA["Consultar y filtrar registros"]
+  Y -- Errores y Fallos --> AB["Analizar logs del sistema"]
+
+  %% Configuración y Plantillas
+  H --> AC{"¿Qué acción desea realizar?"}
+  AC -- Crear Plantilla --> AD["Definir campos y diseño de carnet"]
+  AC -- Asignar Plantilla --> AE["Asociar plantilla a una institución"]
+
+  %% Cierre de sesión
+  I --> AF["Cerrar sesión y volver a la pantalla de inicio"]

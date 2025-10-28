@@ -1,0 +1,27 @@
+flowchart TD
+    %% Start of the process
+    A((Start)) --> B["Access Institution Management"]
+    
+    B --> C{"What action would you like to perform?"}
+
+    %% Institution Management
+    C -- "View institution list" --> D["Display list of registered institutions"]
+    D --> Z["Return to Control Panel"]
+
+    C -- "Edit institution information" --> E["Select institution to modify"]
+    E --> F["Update institution data"]
+    F --> G["Save changes"]
+    G --> Z
+
+    C -- "Disable institution" --> H["Select institution to disable"]
+    H --> I["Confirm disabling"]
+    I --> J["Revoke access temporarily"]
+    J --> Z
+
+    C -- "Delete institution" --> K["Select institution to delete"]
+    K --> L["Confirm permanent deletion"]
+    L --> M["Delete associated accounts and records"]
+    M --> Z
+
+    %% End of the flow
+    Z --> N((End))

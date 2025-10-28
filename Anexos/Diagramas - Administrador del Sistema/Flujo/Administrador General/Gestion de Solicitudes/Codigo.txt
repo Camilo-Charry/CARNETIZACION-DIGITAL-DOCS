@@ -1,0 +1,17 @@
+flowchart TD
+    A(("Start")) --> B["Access Request Management"]
+    B --> C["List pending requests"]
+    C --> D{"Are there any requests?"}
+    D -- No --> E["Show message: No pending requests"]
+    E --> Z["Return to Control Panel"]
+    D -- Yes --> F["Select request to review"]
+    F --> G["View institution details"]
+    G --> H{"Is the request valid and meets requirements?"}
+    H -- No --> I["Reject request with reason"]
+    I --> J["Notify applicant via email"]
+    J --> Z
+    H -- Yes --> K["Approve request and register institution"]
+    K --> L["Create Administrator account for the institution"]
+    L --> M["Notify approval and send credentials"]
+    M --> Z
+    Z --> N(("End"))

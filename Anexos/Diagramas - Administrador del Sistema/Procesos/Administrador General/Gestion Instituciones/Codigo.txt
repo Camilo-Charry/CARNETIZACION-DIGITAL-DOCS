@@ -1,0 +1,15 @@
+graph TD;
+    A[Start] --> B[Access Institution Management Module]
+    B --> C{What action do you want to perform?}
+    C -- "Edit Institution" --> D[Select institution to modify]
+    D --> E[Update information]
+    E --> F[Save changes]
+    F --> Z[End]
+    C -- "Suspend Institution" --> G[Select institution]
+    G --> H[Confirm suspension]
+    H --> I[Revoke access and archive data]
+    I --> Z[End]
+    C -- "Delete Institution" --> J[Select institution]
+    J --> K[Confirm deletion]
+    K --> L[Delete institution and associated accounts]
+    L --> Z[End]
