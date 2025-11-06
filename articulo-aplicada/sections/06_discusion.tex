@@ -1,0 +1,20 @@
+\section*{Discusión}
+
+El análisis de los trabajos revisados permite comprender que la arquitectura por capas, más que un modelo fijo, constituye un marco de pensamiento adaptable que continúa guiando el desarrollo de software contemporáneo. Sin embargo, su efectividad depende de cómo se interpreta y se implementa en función del contexto tecnológico y organizacional.
+
+\subsection*{1. Relevancia y vigencia del patrón}
+A pesar de la aparición de nuevos estilos arquitectónicos —como microservicios, pipelines autocontenidos y arquitecturas limpias—, la estructura por capas mantiene su pertinencia conceptual. Su principio de separación de responsabilidades sigue siendo esencial para garantizar la modularidad y la testabilidad. Tal como plantean Belle et al. (2021) y Tu (2023), la fortaleza del patrón reside en su simplicidad, pero su debilidad se manifiesta cuando la disciplina de las dependencias se pierde durante el mantenimiento.
+
+\subsection*{2. Impacto en la práctica profesional}
+En los entornos de desarrollo actuales, caracterizados por la integración continua y los ciclos ágiles, la arquitectura por capas actúa como una referencia organizacional más que como una regla estricta. Estudios como los de Shahin et al. (2018) y Patwardhan et al. (2016) destacan que los equipos que logran desacoplar sus capas operativas alcanzan una mayor capacidad de entrega continua, reduciendo los riesgos de regresión. En contraste, la falta de separación clara de capas conduce a una degradación progresiva de la calidad estructural, fenómeno ampliamente documentado como erosión arquitectónica.
+
+\subsection*{3. Limitaciones observadas}
+Aunque las capas ofrecen claridad estructural, también imponen una sobrecarga en la comunicación entre módulos. Sharma, Jalote y Trivedi (2005) advierten que la latencia inherente al flujo secuencial de peticiones puede ser crítica en sistemas de alta concurrencia. Por su parte, Darwish (2016) y Contreras Rivas et al. (2025) señalan que la ampliación del modelo con nuevas capas —como seguridad o middleware— mejora la funcionalidad pero puede reducir la eficiencia global si no se gestiona adecuadamente la complejidad.
+
+\subsection*{4. Hacia un modelo híbrido}
+Los resultados indican que la tendencia más sólida es la hibridación del patrón por capas con otros enfoques. Los modelos propuestos por Bastidas Fuertes y Pérez Hernández (2023) y Brown et al. (2021) evidencian que las capas pueden coexistir con estructuras limpias o con generadores automáticos de código sin perder sus principios básicos. De igual modo, la introducción de capas específicas para aprendizaje automático o inferencia (Zhang et al., 2024) demuestra que el patrón puede evolucionar sin desarticular su esencia.
+
+\subsection*{5. Implicaciones futuras}
+La revisión sugiere que el futuro de la arquitectura por capas no depende tanto de su rediseño conceptual, sino de su integración con la automatización, la medición continua y las prácticas de ingeniería de software sostenible. Las herramientas de visualización, las métricas de conformidad estructural y las técnicas de refactorización automatizada emergen como los pilares que garantizarán la longevidad del patrón en entornos cambiantes.
+
+En conclusión, la arquitectura por capas continúa siendo una herramienta fundamental para la ingeniería de software moderna. Su vigencia no radica en su rigidez, sino en su capacidad para adaptarse a nuevas realidades técnicas sin renunciar a sus principios fundacionales de orden, modularidad y separación de responsabilidades.
