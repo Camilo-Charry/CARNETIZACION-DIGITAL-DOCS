@@ -1,0 +1,38 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.45\textwidth]{graphics/comparacion_tecnologias.pdf}
+    \caption{Comparación multi-criterio de tecnologías de identificación digital: QR, RFID y Biométrico}
+    \label{fig:comparacion_tecnologias}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/eficiencia_acceso.pdf}
+    \caption{Tiempo promedio de acceso y precisión de identificación por método}
+    \label{fig:eficiencia_acceso}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/adopcion_tecnologias.pdf}
+    \caption{Evolución de la adopción de tecnologías QR y RFID (2024)}
+    \label{fig:adopcion_tecnologias}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.46\textwidth]{graphics/correlacion_tecnologias.pdf}
+    \caption{Correlación entre adopción tecnológica y reducción de tiempo administrativo}
+    \label{fig:correlacion_tecnologias}
+\end{figure*}
