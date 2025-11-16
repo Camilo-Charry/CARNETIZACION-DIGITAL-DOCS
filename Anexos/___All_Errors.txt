@@ -1,0 +1,9 @@
+CorrelationId: 223f6666-dd45-40e4-af3c-e6aa230ee580
+UTC DateTime: 11/16/2025 02:24:40
+
+The following files/folders have not been downloaded
+0. Anexos/Diagramas - Administrador del Sistema/Secuencia/Administrador General/Codigo.txt
+1. Anexos/Diagramas - Administrador del Sistema/Secuencia/Administrador General/Auditoria/Codigo.txt
+2. Anexos/Diagramas - Administrador del Sistema/Secuencia/Administrador General/Configuraciones/Codigo.txt
+3. Anexos/Diagramas - Administrador del Sistema/Secuencia/Administrador General/Gestion de Instituciones/Codigo.txt
+4. Anexos/Diagramas - Administrador del Sistema/Secuencia/Administrador General/Gestion de Solicitudes/Codigo.txt
