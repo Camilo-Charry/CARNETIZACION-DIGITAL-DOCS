@@ -1,0 +1,31 @@
+flowchart TD
+    A(("Start")) --> B["Access Settings"]
+    B --> C{"Which setting would you like to modify?"}
+    C -- Template Management --> D["List existing templates"]
+    D --> E{"What action to perform?"}
+    E -- Create new template --> F["Define fields and layout"]
+    F --> G["Save template"]
+    G --> Z["Return to Control Panel"]
+    E -- Edit template --> H["Select template to modify"]
+    H --> I["Update fields and layout"]
+    I --> G
+    E -- Delete template --> J["Confirm deletion"]
+    J --> K["Permanently delete template"]
+    K --> Z
+    E -- Assign Template --> L["Select institution"]
+    L --> M["Choose available template"]
+    M --> N["Confirm assignment"]
+    N --> Z
+    C -- System Settings --> O["Configure global parameters"]
+    O --> P["Save changes"]
+    P --> Z
+    C -- Administrator Account Management --> Q["List existing administrators"]
+    Q --> R{"What action to perform?"}
+    R -- Edit administrator details --> S["Select administrator"]
+    S --> T["Update information"]
+    T --> Z
+    R -- Disable administrator --> U["Confirm disabling"]
+    U --> V["Revoke access"]
+    V --> Z
+    Z --> W(("End"))
+

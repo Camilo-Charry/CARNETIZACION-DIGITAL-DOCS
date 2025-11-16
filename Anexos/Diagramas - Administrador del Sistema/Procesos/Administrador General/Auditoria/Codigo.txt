@@ -1,0 +1,15 @@
+graph TD;
+    A[Start] --> B[Access Reports and Audit Module]
+    B --> C{What type of report do you want to generate?}
+    C -- "Registered Institutions" --> D[Select search filters]
+    D --> E[Generate report]
+    E --> F[Export to PDF/Excel]
+    F --> Z[End]
+    C -- "Activity History" --> G[Select date range]
+    G --> H[Apply filters and query records]
+    H --> I[View history]
+    I --> Z[End]
+    C -- "System Errors and Failures" --> J[Select analysis period]
+    J --> K[Filter system logs]
+    K --> L[Analyze information and detect errors]
+    L --> Z[End]
