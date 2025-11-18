@@ -1,14 +1,38 @@
-\section{Metodología de Investigación Aplicada}
+\section{¿Cómo se construyen estos sistemas en la práctica?}
 
-La construcción de estos sistemas se ha apoyado en metodologías estructuradas que buscan la eficiencia y la calidad continua:
+\subsection{Enfoques de desarrollo}
 
-\textbf{Enfoques Ágiles y Híbridos:} La mayoría de los proyectos adopta un enfoque que combina el ciclo de vida de software con metodologías ágiles, como Mobile-D utilizada en el desarrollo de aplicaciones Android [3.1].
+Las metodologías más usadas suelen ser ágiles o híbridas porque permiten modificar el proyecto sobre la marcha, algo esencial cuando el sistema se debe ajustar a muchos tipos de usuarios.
 
-\textbf{Desarrollo Orientado a Objetos (OOSD):} Esta metodología fue implementada en la creación de un sistema de gestión de eventos, lo que define una arquitectura modular rigurosa [4].
+En proyectos móviles aparece Mobile-D, una metodología más orientada a aplicaciones que requieren interacción rápida con hardware, como lectores RFID.
 
-\textbf{Arquitectura de Sistemas (IoT):} La implementación de un sistema IoT multiplataforma en un entorno universitario requiere una metodología que contemple la integración vertical y transversal de los datos de asistencia con otros servicios [6].
+Muchos sistemas adoptan un enfoque orientado a objetos para construir módulos independientes: usuarios, eventos, accesos, perfiles, etc. Esto facilita escalar más adelante.
 
-\textbf{Investigación Experimental:} Un estudio implementó un experimento con estudiantes para demostrar la superioridad del QR sobre el tecleo manual de la URL en términos de rendimiento académico [3].
+\subsection{Infraestructura técnica (explicada sin detalles excesivos)}
+
+Generalmente, las aplicaciones móviles se desarrollan sobre Android Studio, mientras que las plataformas administrativas usan frameworks web modernos. Las bases de datos pueden variar: algunas soluciones usan Firebase para sincronización inmediata; otras trabajan con SQL estándar para tener mayor control sobre los datos.
+
+Lo importante es que todo termine unificado. No sirve de nada tener un módulo móvil funcionando perfecto si luego los registros no llegan correctamente al servidor.
+
+\subsection{Funcionamiento diario}
+
+El flujo normal suele ser así:
+
+El usuario se acerca al punto de acceso.
+
+Muestra su QR o acerca su tarjeta RFID.
+
+El lector identifica quién es.
+
+Se registra automáticamente fecha, hora, ubicación y cualquier otro dato necesario.
+
+Toda esa información se envía al sistema central.
+
+Desde la perspectiva del usuario, todo sucede en cuestión de segundos.
+
+\subsection{Seguridad}
+
+Este aspecto es clave. Como se manejan datos personales sensibles —ubicación, horarios, asistencia, identidad— las bases de datos deben estar cifradas y protegidas. A veces se usa AES u otros métodos de encriptación; en otros casos se añaden barreras adicionales como autenticación facial asociada al QR, lo que vuelve el carnet completamente personal e intransferible.
 
 La \cref{fig:comparacion_tecnologias} presenta una comparación multi-criterio de las principales tecnologías de identificación digital evaluadas en este estudio.
 

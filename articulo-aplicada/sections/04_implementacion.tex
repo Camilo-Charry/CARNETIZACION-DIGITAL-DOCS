@@ -1,19 +1,31 @@
-\section{Implementación del Software}
+\section{Implementación y Funcionamiento}
 
 La implementación exige la integración de varios componentes tecnológicos para garantizar la funcionalidad y la seguridad.
 
-\section{Plataformas y Componentes Clave}
-\textbf{Desarrollo de Aplicaciones:} Las soluciones se construyen comúnmente en la plataforma Android Studio utilizando lenguajes como JAVA y bases de datos como Firebase [4, 3.1].
+\subsection{Infraestructura técnica}
 
-\textbf{Infraestructura de Datos:} Se utilizan bases de datos locales como SQLite para la robustez del sistema y bases de datos remotas que alimentan un sistema de administración para el control del sistema [3.1, 1.2].
+Generalmente, las aplicaciones móviles se desarrollan sobre Android Studio, mientras que las plataformas administrativas usan frameworks web modernos. Las bases de datos pueden variar: algunas soluciones usan Firebase para sincronización inmediata; otras trabajan con SQL estándar para tener mayor control sobre los datos.
 
-\textbf{Integración de Hardware:} En sistemas RFID, el lector se conecta al dispositivo móvil para leer el tag de las tarjetas plásticas [3.1]. Es posible reemplazar lectores RFID con lectores de códigos QR en la infraestructura existente [4.4].
+Lo importante es que todo termine unificado. No sirve de nada tener un módulo móvil funcionando perfecto si luego los registros no llegan correctamente al servidor.
 
-\section{Mecanismos de Operación y Seguridad}
-\textbf{Funcionamiento Operativo:} Al mostrar el código QR, un lector lo escanea, confirma la identidad y anota la hora. El sistema RFID registra automáticamente la información de asistencia cuando un empleado se acerca al lector [2.3].
+\subsection{Funcionamiento diario}
 
-\textbf{Protección de Datos:} Para proteger los datos sensibles de ubicación y presencia, el sistema emplea el método de cifrado AES (Advanced Encryption Standard) [5]. Implementar medidas como el cifrado de datos y una autenticación sólida es esencial para proteger la información y cumplir con regulaciones de privacidad como GDPR [2.1].
+El flujo normal suele ser así:
 
-\textbf{Seguridad Mejorada:} Los códigos QR personalizados son difíciles de falsificar [2.2]. El uso de RFID permite prevenir los robos y restringir automáticamente zonas peligrosas a empleados no capacitados [1.5, 2.4].
+El usuario se acerca al punto de acceso.
+
+Muestra su QR o acerca su tarjeta RFID.
+
+El lector identifica quién es.
+
+Se registra automáticamente fecha, hora, ubicación y cualquier otro dato necesario.
+
+Toda esa información se envía al sistema central.
+
+Desde la perspectiva del usuario, todo sucede en cuestión de segundos.
+
+\subsection{Seguridad}
+
+Este aspecto es clave. Como se manejan datos personales sensibles —ubicación, horarios, asistencia, identidad— las bases de datos deben estar cifradas y protegidas. A veces se usa AES u otros métodos de encriptación; en otros casos se añaden barreras adicionales como autenticación facial asociada al QR, lo que vuelve el carnet completamente personal e intransferible.
 
 \input{tables/tecnologias_comparison.tex}

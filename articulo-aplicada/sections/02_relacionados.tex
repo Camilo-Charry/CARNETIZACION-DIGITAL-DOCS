@@ -1,21 +1,53 @@
-\section{Marco Teórico y Trabajos Relacionados}
+\section{Tecnologías que se están usando (explicadas sin tecnicismos)}
 
-\subsection{Tecnologías de Identificación y Ventajas Operacionales}
-La base de estos proyectos se asienta en dos tecnologías de identificación digital sin contacto que han demostrado eficacia y rentabilidad en la gestión de personas y activos [15]:
+\subsection{Códigos QR}
 
-\textbf{Código QR (Quick Response Code):} Es un sistema bidimensional reconocido por su gran capacidad de almacenamiento de diversos tipos de datos, su rápida lectura omnidireccional y una notable resistencia a daños [9]. Se utiliza como un carnet virtual seguro para manejar datos personales, siendo una solución práctica y económica para aplicaciones que necesitan agilidad y bajo costo [4.2, 1]. El código QR dinámico es una solución de alta seguridad, ya que la contraseña se cifra con métodos como AES-256 y su validez es temporal (por ejemplo, 30 segundos), lo que minimiza amenazas por fugas físicas de imágenes [20].
+El QR es básicamente un cuadrito lleno de puntos, pero detrás de ese diseño tan simple hay varias ventajas:
 
-\textbf{RFID (Identificación por Radiofrecuencia):} Tecnología que permite la lectura de tarjetas o tags sin contacto a través de un lector conectado a un dispositivo móvil. Es valorada por su mayor velocidad, eficiencia y precisión sobre métodos tradicionales, ya que permite un acceso más ágil y sin contacto, ideal para controlar grandes flujos de personas sin detener el tránsito [16, 17]. La tecnología RFID permite leer tags múltiples al mismo tiempo y sin necesidad de una línea de visión, disponiendo de un protocolo anticolisión para evitar errores [4.1]. Es capaz de almacenar hasta 2KB de datos y ofrece opciones de encriptación, lo que mejora la seguridad y reduce el riesgo de falsificación [4.2].
+Puede guardar bastante información.
 
-La superioridad de estas tecnologías reside en la inmediatez y la automatización que proporcionan, eliminando la barrera entre el apunte tradicional y la entrada de datos al sistema digital [4.5].
+Se genera en segundos.
 
-\subsection{Contextos de Aplicación}
-Los sistemas tienen aplicaciones transversales en diversos sectores, destacando:
+Es gratuito.
 
-\textbf{Control Académico y Administrativo:} Implementación de carnets digitales para el control de ingreso/egreso de personal, docentes y estudiantes en instituciones de educación superior [1, 3.4]. El sistema IoT multiplataforma busca registrar el acceso a la facultad, el control de clases y la asistencia, brindando una solución integral a la burocracia de la calidad [6]. La automatización por RFID también se aplica para la apertura de puertas y el control de suministro de energía en aulas, mejorando la gestión de recursos [3.2].
+Funciona incluso si está un poco dañado.
 
-\textbf{Gestión de Eventos:} Creación de aplicaciones móviles donde el cliente obtiene un código QR personalizado que sirve como su entrada, simplificando la logística y el manejo de datos de los asistentes, lo cual es fundamental para una seguridad mejorada [2.2, 4].
+Se lee rápido desde cualquier celular.
 
-\textbf{Salud y Seguridad Pública:} Se plantea la aplicación del QR en el sector salud para la autenticación rápida de pacientes [11]. Adicionalmente, el QR ha sido vital en el desarrollo de sistemas para el rastreo de contactos pospandemia, utilizando el código para hacer un seguimiento eficiente de la ubicación y manejar la tensión entre eficiencia y privacidad [5]. El uso de RFID también se traduce en una mejora en la seguridad y cuidado del paciente en centros de salud [9].
+Muchos lo conocen por los menús digitales que aparecieron en restaurantes después de la pandemia, pero su potencial es mucho mayor. En universidades y empresas se usa como carnet digital personal: cada persona tiene su código, lo muestra en la entrada y el sistema registra automáticamente el ingreso.
 
-\textbf{Innovación Educacional:} La tecnología QR funciona como un puente que conecta el contenido estático de guías impresas con recursos audiovisuales y digitales en línea, reduciendo la fricción en el acceso al conocimiento y demostrando un impacto directo y positivo en el rendimiento académico y la satisfacción del estudiante [7].
+El QR se ha vuelto tan común porque no obliga a comprar hardware especializado. Basta con tener un lector o incluso una cámara de celular.
+
+\subsection{RFID}
+
+El RFID es distinto. Aunque también sirve para identificar personas u objetos, su funcionamiento se basa en ondas de radio. Eso quiere decir que el usuario solo necesita acercar su tarjeta o tag a un lector; no tiene que mostrar nada visualmente.
+
+Entre sus ventajas:
+
+Es extremadamente rápido.
+
+No requiere mirar directamente al lector.
+
+Permite manejar una fila enorme sin detenerse.
+
+Por eso se usa en hospitales, universidades con muchos estudiantes, empresas grandes, transporte público y eventos masivos.
+
+\section{¿Dónde se están usando estos sistemas?}
+
+Lo interesante es que estas tecnologías no están limitadas a un solo sector. Se aplican en:
+
+\textbf{Educación}
+
+Los carnets digitales con QR o RFID sirven para controlar asistencia, validar identidad en exámenes, registrar el uso de laboratorios o bibliotecas, y hasta contar afluencia en eventos.
+
+\textbf{Eventos y espectáculos}
+
+El QR suele usarse como entrada digital. A veces, cuando hay zonas restringidas o manejo de multitudes, se complementa con RFID.
+
+\textbf{Salud}
+
+En hospitales se propone usar QR para identificar pacientes rápidamente y agilizar trámites. RFID también sirve para controlar accesos internos en áreas sensibles.
+
+\textbf{Seguridad pública}
+
+Durante la pandemia se usaron QR para hacer seguimiento epidemiológico, algo que evidenció lo útiles que son estas herramientas para registrar movimientos de manera no invasiva.
