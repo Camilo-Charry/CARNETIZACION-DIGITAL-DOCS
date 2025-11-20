@@ -16,10 +16,8 @@ services:
       - MIKTEX_GID=1000
     working_dir: /latex
     tty: true
-    command:
-      - bash
-      - -lc
-      - bash tools/build.sh
+    command: sh tools/build.sh
+
 
 volumes:
   miktex-data:

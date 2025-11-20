@@ -1,35 +1,11 @@
 \section*{Metodología}
 
-El presente estudio se desarrolló bajo un enfoque cualitativo y analítico, sustentado en la revisión documental de veinte artículos académicos publicados entre 2005 y 2025. Estos trabajos fueron seleccionados por su relevancia en torno al tema de la arquitectura por capas, su evolución conceptual y las aplicaciones prácticas en entornos modernos de desarrollo de software.
+El análisis presentado en este artículo no parte de un único enfoque, porque el propio tema —la arquitectura por capas— tampoco puede estudiarse desde una sola perspectiva. La metodología utilizada combina una revisión documental amplia con un ejercicio interpretativo que intenta poner en relación trabajos que, a primera vista, parecen hablar de asuntos distintos. Más que buscar una síntesis perfecta, el propósito fue entender qué tensiones y qué coincidencias aparecen cuando se observa el patrón desde contextos variados.
 
-\subsection*{Selección de fuentes}
-Se utilizaron criterios de inclusión basados en tres factores: actualidad, aplicabilidad técnica y diversidad metodológica. Los artículos analizados incluyen propuestas teóricas, estudios empíricos, revisiones sistemáticas y casos de implementación. Las fuentes fueron obtenidas de bases académicas reconocidas como IEEE, Springer, Elsevier y arXiv, garantizando su rigor científico.
+El primer paso consistió en revisar investigaciones que abarcan diferentes momentos y motivaciones: estudios que examinan la erosión arquitectónica, propuestas para visualizar dependencias, análisis de rendimiento basados en modelos probabilísticos, evaluaciones empíricas en microservicios y discusiones sobre cómo adaptar las capas a tecnologías emergentes. No se trató de clasificarlas de forma rígida, sino de identificar qué preguntas están intentando responder y qué tipo de problemas reconocen en la práctica.
 
-\subsection*{Estrategia de análisis}
-El análisis se desarrolló en tres etapas complementarias:
+Posteriormente, se organizaron los hallazgos según el tipo de aporte que ofrecen. Algunos trabajos describen fenómenos recurrentes en sistemas grandes; otros presentan herramientas para interpretar estructuras que ya no son evidentes; y también existen propuestas que buscan flexibilizar o extender el modelo clásico. Esta agrupación permitió observar patrones comunes, incluso entre investigaciones que no se citan entre sí.
 
-\begin{enumerate}
-    \item \textbf{Clasificación temática:} Los artículos se agruparon en categorías según su enfoque principal: 
-    (a) definición y evolución del patrón por capas, 
-    (b) medición y reconstrucción arquitectónica, 
-    (c) aplicación del patrón en nuevos contextos (IoT, ML, LLMs, microservicios), y 
-    (d) evaluación del rendimiento y la mantenibilidad.
-    
-    \item \textbf{Comparación de enfoques:} Se identificaron similitudes y divergencias entre las propuestas, considerando dimensiones como objetivos, técnicas empleadas, resultados obtenidos y limitaciones señaladas por los autores.
-    
-    \item \textbf{Síntesis interpretativa:} A partir del contraste de resultados, se elaboró una interpretación general del impacto práctico del patrón en la ingeniería de software actual, destacando las tendencias más significativas.
-\end{enumerate}
+Además de la revisión teórica, se incorporó un análisis del caso de un sistema real: una plataforma de carnetización digital que reúne registro de personas, autenticación, gestión de eventos y control de asistencia. El objetivo no fue convertir este sistema en un estudio de caso formal, sino usarlo como una referencia práctica para evaluar hasta qué punto los principios encontrados en la literatura se alinean o chocan con lo que ocurre en un proyecto en funcionamiento. Este caso sirvió como una forma de comprobar qué partes del modelo en capas resultan útiles y cuáles requieren adaptaciones para sostener la operación diaria.
 
-\subsection*{Criterios de evaluación}
-Para asegurar la consistencia del análisis, se aplicaron criterios técnicos derivados de la literatura revisada, tales como:
-
-\begin{itemize}
-    \item \textbf{Mantenibilidad:} Grado en que la arquitectura facilita el cambio y la extensión del sistema.
-    \item \textbf{Escalabilidad:} Capacidad del diseño para crecer en funcionalidad o volumen de datos sin comprometer el rendimiento.
-    \item \textbf{Testabilidad:} Posibilidad de aislar componentes y validar su comportamiento de forma independiente.
-    \item \textbf{Rendimiento:} Medición del impacto que la estructura en capas tiene sobre la latencia y el throughput del sistema.
-    \item \textbf{Sostenibilidad estructural:} Resistencia de la arquitectura frente a la erosión o degradación por violaciones de dependencia.
-\end{itemize}
-
-\subsection*{Síntesis metodológica}
-La integración de los datos se realizó mediante un enfoque narrativo comparativo, priorizando la interpretación cualitativa sobre la cuantificación estadística. El objetivo no fue determinar una arquitectura “ideal”, sino comprender cómo los principios del modelo por capas se adaptan a los entornos tecnológicos actuales. Este proceso permitió establecer una visión integral sobre las transformaciones, limitaciones y oportunidades prácticas que enfrenta el patrón en la actualidad.
+En conjunto, la metodología siguió un enfoque cualitativo y comparativo, buscó construir una mirada más amplia sobre el enfoque arquitectónico en capas. El resultado final surge de la interacción entre los estudios consultados y la experiencia práctica observada en un sistema contemporáneo que enfrenta desafíos típicos del desarrollo moderno.

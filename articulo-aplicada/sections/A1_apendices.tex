@@ -1,45 +1,80 @@
-\section*{Referencias}
+\section*{Apéndices}
+
+\subsection*{Apéndice A. Tabla comparativa de enfoques encontrados en la literatura}
+
+Este apéndice reúne, de manera condensada, algunos de los enfoques más representativos identificados en los artículos revisados. No pretende reemplazar el análisis principal, sino ofrecer una visión rápida de las diferencias entre propuestas y del tipo de problemas que cada una intenta resolver.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{p{4.5cm} p{5.5cm} p{5.2cm}}
+\hline
+\textbf{Tema del estudio} & \textbf{Aporte principal} & \textbf{Limitaciones observadas} \\
+\hline
+Reconstrucción arquitectónica (Schmidt et al.) & Uso de clustering y análisis automático para recuperar la estructura conceptual. & Difícil capturar la intención del diseño original solo a partir del código. \\
+Arquitecturas autocontenidas (Patwardhan et al.) & Aislamiento de cambios para despliegues más rápidos. & Requiere modificar prácticas de desarrollo establecidas. \\
+Visualización mediante “SArF Map” (Kobayashi et al.) & Representación accesible de dependencias y capas. & La precisión depende fuertemente de la calidad del código existente. \\
+Revisión sistemática de patrones en capas (Belle et al.) & Formalización de principios para prevenir erosión. & Falta de evidencia en entornos industriales reales. \\
+Aplicación en IoT (Darwish) & Extensión del patrón clásico a más de cinco capas. & Incremento de complejidad y puntos de fallo. \\
+Modelos de rendimiento (Sharma et al.) & Predicción de latencia y cuellos de botella. & Dificultad para medir parámetros reales con precisión. \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Apéndice B. Esquema conceptual simplificado del proyecto de carnetización}
+
+El siguiente diagrama no pretende reemplazar los diagramas formales del sistema, sino ilustrar cómo se distribuyen las responsabilidades principales.
 
 \begin{itemize}
-
-\item Bastidas Fuertes, A. F., \& Pérez Hernández, M. G. (2023). \textit{Transpiler-Based Architecture Design Model for Back-End Layers in Software Development}. Applied Sciences, 13(20), 11371.
-
-\item Belle, A. B., El Boussaidi, G., Lethbridge, T. C., Kpodjedo, S., Mili, H., \& Paz, A. (2021). \textit{Systematically reviewing the layered architectural pattern principles and their use to reconstruct software architectures}. arXiv preprint arXiv:2112.01644.
-
-\item Brown, P. S., Dimitrova, V., Hart, G., Cohn, A. G., \& Moura, P. O. (2021). \textit{Refactoring the Whitby Intelligent Tutoring System for Clean Architecture}. Theory and Practice of Logic Programming, 21(6), 818–834.
-
-\item Contreras Rivas, L. Y., López Domínguez, E., Hernández Velázquez, Y., Domínguez Isidro, S., Medina Nieto, M. A., \& De La Calleja, J. (2025). \textit{A Layered Software Architecture for the Development of Smart Mobile Distributed Systems Oriented to the Management of Emergency Cases}. Applied Sciences, 15(7), 3664.
-
-\item Darwish, M. (2016). \textit{Improved layered architecture for Internet of Things}. Middle East Africa Computing Science \& Engineering, 2(1), 1–13.
-
-\item Kobayashi, K., Kamimura, M., Yano, K., Kato, K., \& Matsuo, A. (2013). \textit{SArF Map: Visualizing Software Architecture from Feature and Layer Viewpoints}. In 2013 21st IEEE International Conference on Program Comprehension (ICPC) (pp. 43–52). IEEE.
-
-\item Li, R., Liang, P., Soliman, M., \& Avgeriou, P. (2022). \textit{Understanding software architecture erosion: A systematic mapping study}. Journal of Software: Evolution and Process, 34(6), e2423.
-
-\item Llisterri Giménez, N., Monfort Grau, M., \& Freitag, F. (2022). \textit{On-device training of machine learning models on microcontrollers with federated learning}. Electronics, 11(4), 573.
-
-\item Meijer, W., Trubiani, C., \& Aleti, A. (2024). \textit{Experimental evaluation of architectural software performance design patterns in microservices}. Journal of Systems and Software, 212, Article 112183.
-
-\item Misell, Q. (2023). \textit{Hiding in text/plain sight: Security defences of Tor Onion Services}. arXiv preprint arXiv:2312.00545.
-
-\item Muccini, H., \& Vaidhyanathan, K. (2021). \textit{Software Architecture for ML-based Systems: What Exists and What Lies Ahead}. In Proceedings of the 1st International Workshop on AI Engineering - Software Engineering for AI (WAIN) (pp. 53–60). IEEE/ACM.
-
-\item Patwardhan, A., Patwardhan, R., \& Vartak, S. (2016). \textit{Self-Contained Cross-Cutting Pipeline Software Architecture}. International Research Journal of Engineering and Technology, 3(5), 1858–1861.
-
-\item Schmidt, F., MacDonell, S. G., \& Connor, A. M. (2014). \textit{An automatic architecture reconstruction and refactoring framework}. Software Engineering Research, Management and Applications, 377, 95–111.
-
-\item Shahin, M., Zahedi, M., Babar, M. A., \& Zhu, L. (2018). \textit{An empirical study of architecting for continuous delivery and deployment}. Empirical Software Engineering, 23(6), 3332–3372.
-
-\item Sharma, V. S., Jalote, P., \& Trivedi, K. S. (2005). \textit{Evaluating performance attributes of layered software architecture}. Lecture Notes in Computer Science, 377, 333–348.
-
-\item Thakare, S. B., \& Kiwelekar, A. (2021). \textit{Redefining measures of Layered Architecture}. arXiv preprint arXiv:2106.03079.
-
-\item Tu, Z. (2023). \textit{Research on the Application of Layered Architecture in Computer Software Development}. Journal of Computing and Electronic Information Management, 11(3), 34–38.
-
-\item Zhang, D., Xu, X., Wang, C., Xing, Z., \& Mao, R. (2024). \textit{A Layered Architecture for Developing and Enhancing Capabilities in Large Language Model-based Software Systems}. arXiv preprint arXiv:2411.12357.
-
-\item Belle, A. B., et al. (2021). \textit{Systematically reviewing the layered architectural pattern principles and their use to reconstruct software architectures}. arXiv preprint arXiv:2112.01644.
-
-\item Contreras Rivas, L. Y., et al. (2025). \textit{A Layered Software Architecture for the Development of Smart Mobile Distributed Systems Oriented to the Management of Emergency Cases}. Applied Sciences, 15(7), 3664.
-
+    \item \textbf{Frontend}: módulos, componentes y servicios centrados en la interacción del usuario.
+    \item \textbf{Capa Web (Backend)}: controladores y registro de dependencias; punto de entrada de toda la lógica interna.
+    \item \textbf{Capa Business}: validaciones, reglas, coordinación entre flujos y lógica transversal.
+    \item \textbf{Capa Data}: repositorios y consultas optimizadas, especialmente para cargas masivas.
+    \item \textbf{Entity}: modelos, entidades y contexto de base de datos.
+    \item \textbf{Utilities}: funciones auxiliares que evitan mezclar tareas generales dentro de las capas principales.
 \end{itemize}
+
+\subsection*{Apéndice C. Observaciones adicionales}
+
+Durante el análisis surgieron algunas notas que no encajaban directamente en el cuerpo central del artículo, pero que ayudan a entender mejor ciertas decisiones:
+
+\begin{itemize}
+    \item La arquitectura por capas proporcionó estabilidad en la mayoría de escenarios, pero mostró fragilidad cuando los módulos crecieron demasiado rápido.
+    \item Los procesos transversales (como autenticación y notificaciones) no encajan cómodamente en modelos estrictos de capas, algo que coincide con lo observado en la literatura.
+    \item El sistema se benefició del desacoplamiento entre frontend y backend; esta separación evitó bloqueos entre módulos con ritmos de actualización distintos.
+\end{itemize}
+
+\section*{Referencias}
+
+Belle, A. B., El Boussaidi, G., Lethbridge, T. C., Kpodjedo, S., Mili, H., & Paz, A. (2021). *Systematically reviewing the layered architectural pattern principles and their use to reconstruct software architectures*. arXiv:2112.01644.
+
+Bastidas Fuertes, A. F., & Pérez Hernández, M. G. (2023). Transpiler-based architecture design model for back-end layers in software development. *Applied Sciences, 13*(20), 11371.
+
+Brown, P. S., Dimitrova, V., Hart, G., Cohn, A. G., & Moura, P. O. (2021). Refactoring the Whitby Intelligent Tutoring System for Clean Architecture. *Theory and Practice of Logic Programming, 21*(6), 818–834.
+
+Contreras Rivas, L. Y., López Domínguez, E., Hernández Velázquez, Y., Domínguez Isidro, S., Medina Nieto, M. A., & De La Calleja, J. (2025). A layered software architecture for the development of smart mobile distributed systems oriented to the management of emergency cases. *Applied Sciences, 15*(7), 3664.
+
+Darwish, M. (2016). Improved layered architecture for Internet of Things. *Middle East Africa Computing Science & Engineering, 2*(1), 1–13.
+
+Kobayashi, K., Kamimura, M., Yano, K., Kato, K., & Matsuo, A. (2013). SArF Map: Visualizing software architecture from feature and layer viewpoints. In *2013 21st IEEE International Conference on Program Comprehension (ICPC)* (pp. 43–52). IEEE.
+
+Li, R., Liang, P., Soliman, M., & Avgeriou, P. (2022). Understanding software architecture erosion: A systematic mapping study. *Journal of Software: Evolution and Process, 34*(6), e2423.
+
+Llisterri Giménez, N., Monfort Grau, M., & Freitag, F. (2022). On-device training of machine learning models on microcontrollers with federated learning. *Electronics, 11*(4), 573.
+
+Meijer, W., Trubiani, C., & Aleti, A. (2024). Experimental evaluation of architectural software performance design patterns in microservices. *Journal of Systems and Software, 212*, Article 112183.
+
+Misell, Q. (2023). Hiding in text/plain sight: Security defences of Tor Onion Services. arXiv:2312.00545.
+
+Muccini, H., & Vaidhyanathan, K. (2021). Software architecture for ML-based systems: What exists and what lies ahead. In *Proceedings of the 1st International Workshop on AI Engineering – Software Engineering for AI (WAIN)* (pp. 53–60). IEEE/ACM.
+
+Patwardhan, A., Patwardhan, R., & Vartak, S. (2016). Self-contained cross-cutting pipeline software architecture. *International Research Journal of Engineering and Technology, 3*(5), 1858–1861.
+
+Schmidt, F., MacDonell, S. G., & Connor, A. M. (2014). An automatic architecture reconstruction and refactoring framework. In *Software Engineering Research, Management and Applications* (pp. 95–111). Springer.
+
+Shahin, M., Zahedi, M., Babar, M. A., & Zhu, L. (2018). An empirical study of architecting for continuous delivery and deployment. *Empirical Software Engineering, 23*(6), 3332–3372.
+
+Sharma, V. S., Jalote, P., & Trivedi, K. S. (2005). Evaluating performance attributes of layered software architecture. In *Lecture Notes in Computer Science* (Vol. 377, pp. 333–348). Springer.
+
+Thakare, S. B., & Kiwelekar, A. (2021). Redefining measures of layered architecture. arXiv:2106.03079.
+
+Tu, Z. (2023). Research on the application of layered architecture in computer software development. *Journal of Computing and Electronic Information Management, 11*(3), 34–38.

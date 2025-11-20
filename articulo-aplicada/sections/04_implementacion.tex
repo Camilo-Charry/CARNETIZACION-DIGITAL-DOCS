@@ -1,35 +1,24 @@
-\section*{Metodología}
+\section{Implementación}
 
-El presente estudio se desarrolló bajo un enfoque cualitativo y analítico, sustentado en la revisión documental de veinte artículos académicos publicados entre 2005 y 2025. Estos trabajos fueron seleccionados por su relevancia en torno al tema de la arquitectura por capas, su evolución conceptual y las aplicaciones prácticas en entornos modernos de desarrollo de software.
+Cuando se observa la arquitectura de un sistema en funcionamiento, rara vez coincide por completo con lo que se diseñó en sus primeras etapas. El proyecto de carnetización digital no es la excepción. Aunque se apoya en una separación por capas, su evolución ha ido moldeando cada nivel según las necesidades prácticas del día a día. En la teoría, las capas parecen bloques aislados; en la práctica, cada una termina influyendo sobre las demás de maneras que no siempre son fáciles de anticipar.
 
-\subsection*{Selección de fuentes}
-Se utilizaron criterios de inclusión basados en tres factores: actualidad, aplicabilidad técnica y diversidad metodológica. Los artículos analizados incluyen propuestas teóricas, estudios empíricos, revisiones sistemáticas y casos de implementación. Las fuentes fueron obtenidas de bases académicas reconocidas como IEEE, Springer, Elsevier y arXiv, garantizando su rigor científico.
+El backend está dividido en cinco componentes bien definidos. La capa \textit{Entity} agrupa los modelos que representan la información central del sistema y el contexto de base de datos. Su función es relativamente estable: describe cómo se estructuran las entidades, cómo se relacionan y qué reglas mínimas deben cumplir antes de llegar a otros niveles. A diferencia de lo que ocurre en arquitecturas más flexibles, esta capa mantiene una posición bastante fija; no es el lugar donde suelen aparecer cambios repentinos.
 
-\subsection*{Estrategia de análisis}
-El análisis se desarrolló en tres etapas complementarias:
+La capa \textit{Data} es la responsable de interactuar con la base de datos. Aquí se encuentran los repositorios, cada uno con tareas muy específicas. En un entorno ideal, esta capa mantendría una relación directa y exclusiva con el almacenamiento; sin embargo, durante el crecimiento del sistema aparecieron consultas que no encajaban del todo bien en los patrones habituales. La necesidad de optimizar ciertas operaciones, como las cargas masivas o los listados de asistencia, obligó a extender sus responsabilidades más de lo previsto, algo que ya anticipan varios estudios sobre la erosión arquitectónica.
 
-\begin{enumerate}
-    \item \textbf{Clasificación temática:} Los artículos se agruparon en categorías según su enfoque principal: 
-    (a) definición y evolución del patrón por capas, 
-    (b) medición y reconstrucción arquitectónica, 
-    (c) aplicación del patrón en nuevos contextos (IoT, ML, LLMs, microservicios), y 
-    (d) evaluación del rendimiento y la mantenibilidad.
-    
-    \item \textbf{Comparación de enfoques:} Se identificaron similitudes y divergencias entre las propuestas, considerando dimensiones como objetivos, técnicas empleadas, resultados obtenidos y limitaciones señaladas por los autores.
-    
-    \item \textbf{Síntesis interpretativa:} A partir del contraste de resultados, se elaboró una interpretación general del impacto práctico del patrón en la ingeniería de software actual, destacando las tendencias más significativas.
-\end{enumerate}
+La capa \textit{Business} es el punto donde se encuentran la mayoría de las decisiones del sistema: validaciones, reglas, cálculos y coordinación entre módulos. En teoría, debería preservar una lógica clara y relativamente contenida. En la práctica, las nuevas funcionalidades —especialmente las relacionadas con autenticación, notificaciones y el flujo de asistencia en eventos— hicieron que esta capa se volviera más densa con el tiempo. Lo interesante es que, a pesar de ello, la división conceptual ayudó a mantener controlados los efectos secundarios. Cuando algo fallaba, era posible rastrear el origen sin navegar por todo el backend.
 
-\subsection*{Criterios de evaluación}
-Para asegurar la consistencia del análisis, se aplicaron criterios técnicos derivados de la literatura revisada, tales como:
+La capa \textit{Web} reúne los controladores que exponen la funcionalidad del backend, pero cumple además un papel que no siempre se hace evidente: es el proyecto de inicio, el punto donde confluyen las dependencias y donde deben declararse los servicios que sostienen el resto del sistema. En teoría, este nivel debería mantenerse relativamente estable, pero en la práctica se convirtió en uno de los lugares donde había que actuar con mayor cautela.
 
-\begin{itemize}
-    \item \textbf{Mantenibilidad:} Grado en que la arquitectura facilita el cambio y la extensión del sistema.
-    \item \textbf{Escalabilidad:} Capacidad del diseño para crecer en funcionalidad o volumen de datos sin comprometer el rendimiento.
-    \item \textbf{Testabilidad:} Posibilidad de aislar componentes y validar su comportamiento de forma independiente.
-    \item \textbf{Rendimiento:} Medición del impacto que la estructura en capas tiene sobre la latencia y el throughput del sistema.
-    \item \textbf{Sostenibilidad estructural:} Resistencia de la arquitectura frente a la erosión o degradación por violaciones de dependencia.
-\end{itemize}
+El problema no surgía por los controladores en sí, que se mantuvieron ordenados, sino por la gestión de paquetes y versiones. Como esta capa era la que “amarraba” la solución completa, cualquier actualización de un paquete compartido entre otras capas podía generar inconsistencias si no se revisaba con cuidado. Era fácil que una versión nueva funcionara bien en \textit{Business} o \textit{Data}, pero terminara afectando el proyecto de inicio al momento de compilar o registrar servicios. Esto obligó a adoptar una disciplina casi meticulosa al manejar dependencias, algo que varios estudios sobre mantenimiento de arquitecturas mencionan como una fuente común de fricciones en sistemas grandes.
 
-\subsection*{Síntesis metodológica}
-La integración de los datos se realizó mediante un enfoque narrativo comparativo, priorizando la interpretación cualitativa sobre la cuantificación estadística. El objetivo no fue determinar una arquitectura “ideal”, sino comprender cómo los principios del modelo por capas se adaptan a los entornos tecnológicos actuales. Este proceso permitió establecer una visión integral sobre las transformaciones, limitaciones y oportunidades prácticas que enfrenta el patrón en la actualidad.
+Más que un problema de diseño, era un recordatorio práctico de cómo la arquitectura por capas no elimina del todo ciertos puntos sensibles. La capa \textit{Web}, al ser la que orquesta el ensamblaje final, se volvió una zona donde pequeños descuidos podían propagarse hacia el resto del backend.
+
+
+Finalmente, la capa de \textit{Utilities} aparece como un espacio auxiliar. Es donde terminan funciones que no encajan del todo en ninguna otra capa, pero que resultan necesarias: conversión de formatos, manejo de fechas, generación de códigos, validaciones genéricas, entre otras. Aunque puede parecer una capa menor, su existencia evita que cierta lógica se mezcle con la lógica de negocio. Varias investigaciones sobre arquitecturas contemporáneas señalan que estas capas de soporte son clave para mantener limpio el resto del sistema.
+
+En conjunto, la implementación del backend muestra un equilibrio particular: la arquitectura por capas no se siguió de manera estricta, pero sirvió como esqueleto para sostener el crecimiento del sistema. Cada capa llegó a asumir responsabilidades adicionales con el tiempo, y, aun así, la estructura general se mantuvo lo suficientemente clara como para permitir ajustes sin riesgo de colapsar el proyecto.
+
+El frontend, por su parte, mantiene un grado de independencia. Allí, la organización se basó en módulos, componentes y servicios, lo que permitió separar las vistas de la lógica de comunicación con el backend. Esta separación no elimina la complejidad; simplemente la reparte. Sin embargo, facilita que el sistema pueda escalar sin alterar la estructura del lado del servidor, algo que resulta especialmente útil en aplicaciones donde las interfaces cambian más rápido que la lógica interna.
+
+La implementación, vista en su conjunto, confirma una idea que aparece en muchos de los trabajos revisados: la arquitectura por capas sigue siendo útil, pero sólo si se permite cierta flexibilidad. El orden inicial no se conserva de manera perfecta, pero proporciona un punto de referencia constante para orientar las decisiones técnicas cuando el sistema crece.
