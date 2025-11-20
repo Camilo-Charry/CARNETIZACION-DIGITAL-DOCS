@@ -1,25 +1,6 @@
 \section{Introducción}
+La industria del software demanda calidad, rapidez y sostenibilidad. Las \textit{buenas prácticas} como control de versiones, integración continua \cite{fowler2006continuous}, desarrollo dirigido por pruebas \cite{beck2003testdriven}, y entrega continua \cite{chen2015devops} prometen mejorar resultados, pero su efectividad varía según contexto. 
 
-En muchas instituciones, sobre todo en universidades, empresas grandes o lugares donde entra y sale gente todo el día, todavía se siente que el control del acceso está un poco estancado en el tiempo. Es común encontrar hojas impresas en la entrada, cuadernos de registro llenos de tachones, firmas que nadie puede leer y datos que después nadie usa para nada. Lo que parece un trámite simple, como verificar quién entró, a qué hora llegó o si realmente asistió a un evento o clase, termina siendo un proceso lento, impreciso y bastante frustrante para todos.
+Este trabajo investiga, de forma aplicada, cómo un conjunto curado de prácticas influye en resultados verificables y en la construcción de un \textit{software funcional}. Siguiendo los principios de código limpio \cite{martin2008clean} y las métricas DORA \cite{dora2021metrics}, evaluamos el impacto de estas prácticas en un proyecto real.
 
-Durante los últimos años he visto cómo varias organizaciones han intentado cambiar esta dinámica utilizando tecnologías que ya conocemos pero que quizá no habíamos pensado usar de esta forma: los códigos QR y los sistemas RFID. No es que estas herramientas sean nuevas. De hecho, llevan años en el mercado. Pero su aplicación como solución integral de acceso, asistencia y gestión de personas ha tomado fuerza apenas hace poco, especialmente cuando se hizo evidente que los sistemas tradicionales no daban abasto para el nivel de precisión que hoy se exige.
-
-Este documento cuenta, de una forma tranquila y sin adornos innecesarios, cómo funcionan estas tecnologías, por qué tanta gente habla de ellas, cuáles son sus ventajas reales y qué tan complicadas son de implementar. No quiero hacer un texto "técnico perfecto", sino explicar todo con naturalidad, como si se lo contara a un compañero de trabajo que quiere modernizar su institución y no sabe por dónde empezar. Así el lector puede entender tanto los puntos positivos como los retos que aparecen en el camino, porque no todo es tan ideal como lo muestran algunos catálogos comerciales.
-
-\section{El problema real en las instituciones y por qué se buscan alternativas}
-
-Antes de hablar de tecnología, vale la pena describir el problema sin filtros. Lo que más desgasta a las instituciones no es solo la lentitud en el acceso, sino la falta de información confiable.
-
-En las universidades, por ejemplo:
-
-Un profesor necesita registrar asistencia para validar notas según la normativa.
-
-La administración necesita controlar horarios, entradas y salidas.
-
-Seguridad necesita saber quién está dentro del campus en un momento de emergencia.
-
-Acreditación y calidad necesitan estadísticas reales, no supuestos.
-
-Si cada área trabaja por su lado y no existe una base de datos común, el resultado es una colección de registros dispersos que no tienen coherencia entre sí.
-
-Es aquí donde los códigos QR y RFID empiezan a ganar terreno. La promesa es sencilla: digitalizar todo el proceso, hacerlo automático y que la información se almacene de forma uniforme. Es decir, reemplazar cuadernos, planillas y procesos manuales por un sistema que, sin complicar al usuario, garantice que los datos realmente sirvan para algo.
+Nuestras contribuciones son: (1) un protocolo reproducible para aplicar y medir prácticas, (2) un estudio con métricas de proceso y producto basado en \cite{forsgren2018accelerate}, y (3) una guía de lecciones aprendidas para la industria.

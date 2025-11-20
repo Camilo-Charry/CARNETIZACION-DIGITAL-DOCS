@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -eu
+set -euo pipefail
 
 # Add TeX Live to PATH
 export PATH="/opt/texlive/bin:$PATH"
