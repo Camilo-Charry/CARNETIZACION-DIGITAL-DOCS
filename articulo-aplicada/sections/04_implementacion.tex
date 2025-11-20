@@ -1,0 +1,55 @@
+\section{Implementación del Sistema}
+
+El Sistema de Carnetización Digital y Gestión de Eventos se implementó como una solución web y móvil, siguiendo principios de simplicidad y escalabilidad. Se aplicaron buenas prácticas de desarrollo, incluyendo control de versiones, pruebas automatizadas y documentación.
+
+\subsection{Arquitectura del Sistema}
+
+La arquitectura sigue un patrón cliente-servidor con separación clara entre frontend y backend. El backend maneja la lógica de negocio, base de datos y APIs, mientras que los frontends (web y móvil) proporcionan interfaces de usuario.
+
+- **Backend**: Desarrollado en Node.js con Express.js para APIs RESTful. Maneja autenticación, gestión de usuarios/eventos y generación de QR.
+- **Base de Datos**: PostgreSQL para almacenamiento relacional de usuarios, eventos y registros de asistencia.
+- **Frontend Web**: React.js para la plataforma administrativa, permitiendo CRUD de usuarios y eventos.
+- **Aplicación Móvil**: React Native para escaneo QR y registro de asistencia.
+- **Generación QR**: Biblioteca qrcode.js para crear códigos estáticos únicos por usuario y evento.
+
+La arquitectura es modular, facilitando futuras expansiones como integración RFID o geofencing.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.46\textwidth]{graphics/correlacion_devops.pdf}
+    \caption{Arquitectura general del sistema: componentes web, móvil y base de datos}
+    \label{fig:correlacion_devops}
+\end{figure}
+
+\subsection{Flujo de Implementación}
+
+1. **Registro de Usuarios**: Administradores crean perfiles con datos básicos; se genera un QR único.
+2. **Creación de Eventos**: Definición de nombre, fecha, hora, capacidad y roles permitidos.
+3. **Acceso a Eventos**: Usuarios escanean el QR del evento si está activo; el sistema valida y registra asistencia.
+4. **Reportes**: Generación automática de listas de asistencia en CSV.
+
+\subsection{Prácticas Aplicadas}
+
+- **Control de Calidad**: Uso de ESLint para linting, Jest para pruebas unitarias, y GitHub Actions para CI/CD básico.
+- **Seguridad**: Autenticación JWT, validación de inputs, y encriptación de datos sensibles.
+- **Documentación**: APIs documentadas con Swagger; código comentado.
+
+\subsection{Fragmento de Código Ejemplo}
+
+A continuación, un ejemplo de función para generar QR en el backend:
+
+\begin{lstlisting}
+const QRCode = require('qrcode');
+
+async function generateUserQR(userId) {
+    const qrData = JSON.stringify({ userId, type: 'user' });
+    const qrImage = await QRCode.toDataURL(qrData);
+    return qrImage;
+}
+\end{lstlisting}
+
+\subsection{Comparación de Tecnologías Seleccionadas}
+
+La selección se basó en madurez, comunidad y adecuación al proyecto. La \cref{tab:frameworks} compara opciones evaluadas.
+
+\input{tables/frameworks_comparison.tex}

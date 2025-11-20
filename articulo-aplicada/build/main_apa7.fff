@@ -1,0 +1,38 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.45\textwidth]{graphics/comparacion_metodologias.pdf}
+    \caption{Comparación de metodologías ágiles evaluadas para el proyecto}
+    \label{fig:comparacion_metodologias}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.46\textwidth]{graphics/correlacion_devops.pdf}
+    \caption{Arquitectura general del sistema: componentes web, móvil y base de datos}
+    \label{fig:correlacion_devops}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/metricas_dora.pdf}
+    \caption{Métricas DORA: frecuencia de despliegues y tiempo de entrega}
+    \label{fig:metricas_dora}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/evolucion_metricas.pdf}
+    \caption{Evolución de métricas de calidad durante el desarrollo}
+    \label{fig:evolucion_metricas}
+\end{figure*}

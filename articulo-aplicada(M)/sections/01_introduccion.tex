@@ -1,0 +1,25 @@
+\section{Introducción}
+
+Cuando inicié mi formación en el SENA, algo me llamó la atención: la cantidad de tiempo que se perdía en algo tan básico como pasar lista. En cada reunión se usaba una hoja física de asistencia, y el proceso era siempre igual: ``Marcos Rojas?'' ``Presente''. ``María Isabel?'' ``Presente''. Así durante cinco o diez minutos en cada sesión.
+
+Además del tiempo, existían otros problemas. A veces las hojas se extraviaban. En otras ocasiones algunos estudiantes firmaban por compañeros que no habían asistido. Cuando coordinación solicitaba los reportes trimestrales de asistencia, los instructores debían revisar manualmente montones de hojas. El proceso era poco eficiente y propenso a errores.
+
+A partir de estas dificultades surgió la idea del proyecto. El sistema desarrollado consiste en una solución híbrida con componentes web y móvil.
+
+La plataforma web está orientada a administradores. Desde allí se pueden crear usuarios (estudiantes, instructores y empleados), configurar eventos o clases, y visualizar en tiempo real la asistencia registrada. Toda la información se almacena en una base de datos PostgreSQL, eliminando el uso de papel.
+
+La aplicación móvil está dirigida a los usuarios finales. Un participante puede registrarse, generar su propio código QR (carnet digital) y presentarlo al llegar a un evento. El instructor lo escanea y la asistencia queda registrada al instante. El teléfono actúa como un carnet personal.
+
+\subsection{Decisión entre RFID y QR}
+
+Durante la revisión de varios artículos relacionados con sistemas de identificación digital, se observó que RFID ofrecía ventajas relevantes: registro instantáneo, sin necesidad de cámaras, sin apuntar el dispositivo y con una mejor experiencia de usuario. Sin embargo, presenta una dificultad importante: el costo. Requiere lectores especializados, tarjetas con chip RFID para todos los usuarios y una infraestructura distribuida dentro del centro de formación.
+
+Por el contrario, los códigos QR solo requieren la cámara del teléfono móvil, un recurso disponible en prácticamente cualquier dispositivo. Por esta razón, se optó por comenzar con QR. Si el sistema demuestra buenos resultados y una alta adopción, en el futuro será más factible solicitar presupuesto para una implementación RFID más robusta.
+
+\subsection{Contenido de las siguientes secciones}
+
+En las secciones posteriores se describe la arquitectura del sistema (C\# con .NET en el backend, React Native para la aplicación móvil y Angular para la plataforma web), el diseño de la base de datos, los principales endpoints de la API, los desafíos encontrados y las soluciones implementadas.
+
+El sistema presenta algunas limitaciones propias del alcance del proyecto. No está optimizado para manejar eventos masivos (por ejemplo, más de 500 personas siendo registradas simultáneamente). El proceso de autenticación utiliza JWT con soporte para refresh tokens. No existe integración con el LMS del SENA y la aplicación móvil requiere conexión a internet para funcionar; no dispone de modo offline.
+
+Estas limitaciones no buscan justificarse, sino establecer los límites reales del proyecto teniendo en cuenta su naturaleza académica, el tiempo disponible (seis meses) y la ausencia de presupuesto. Se priorizó entregar una solución funcional, estable y documentada, antes que un producto ``completo'' pero deficiente. La arquitectura modular permite ampliar el sistema en el futuro sin necesidad de reescribirlo.
