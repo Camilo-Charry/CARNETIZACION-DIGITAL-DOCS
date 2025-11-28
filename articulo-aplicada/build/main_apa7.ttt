@@ -1,4 +1,6 @@
-\begin{table}[htbp]
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
 \centering
 \footnotesize
 \caption{Comparación de Tecnologías de Identificación Digital}
@@ -13,4 +15,4 @@ NFC & Medio & Bajo & Alta & Muy Alta \\
 Tarjeta Magnética & Bajo & Medio & Baja & Alta \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
