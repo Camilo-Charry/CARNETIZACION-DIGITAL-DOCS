@@ -1,0 +1,14 @@
+graph TD;
+    A[Start] --> B[Review Pending Requests]
+    B --> C{Are there pending requests?}
+    C -- No --> X[Show message: "No requests"] --> Z[End]
+    C -- Yes --> D[Select a request for review]
+    D --> E[Validate institution data]
+    E --> F{Data correct?}
+    F -- No --> G[Reject request with reason]
+    G --> H[Notify institution of rejection]
+    H --> Z
+    F -- Yes --> I[Approve request]
+    I --> J[Create Administrator account for the institution]
+    J --> K[Send approval notification]
+    K --> Z[End]

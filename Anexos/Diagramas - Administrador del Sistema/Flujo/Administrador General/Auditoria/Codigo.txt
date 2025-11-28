@@ -1,0 +1,37 @@
+flowchart TD
+    %% Start of the process
+    A((Start)) --> B["Access Reports and Audit"]
+    
+    B --> C{"What would you like to do?"}
+
+    %% Report generation
+    C -- "Generate Report" --> D["Select report type"]
+    D --> E{"What type of report?"}
+    
+    E -- "Registered Institutions" --> F["Generate institution report"]
+    F --> G["Export to PDF/Excel"]
+    G --> Z["Return to Control Panel"]
+
+    E -- "Administrator Users" --> H["Generate administrator list"]
+    H --> I["Export to PDF/Excel"]
+    I --> Z
+
+    E -- "Activity History" --> J["Select time period"]
+    J --> K["Generate activity report"]
+    K --> L["Export to PDF/Excel"]
+    L --> Z
+
+    %% System audit
+    C -- "Consult Audit" --> M["Select search criteria"]
+    M --> N{"What would you like to consult?"}
+    
+    N -- "Actions performed by Administrators" --> O["Filter by date, user, or action"]
+    O --> P["Display results on screen"]
+    P --> Z
+
+    N -- "System Errors and Failures" --> Q["Filter by error type or module"]
+    Q --> R["Show error logs"]
+    R --> Z
+
+    %% End of the flow
+    Z --> S((End))
