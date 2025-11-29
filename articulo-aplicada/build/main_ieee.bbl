@@ -1,0 +1,223 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ref6}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Repositorio Institucional Universidad Distrital Francisco José de Caldas}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://repositorio.udistrital.edu.co/items/f2aa0251-70a5-4c09-808f-e3dd2934ee4c
+      \endverb
+      \verb{url}
+      \verb https://repositorio.udistrital.edu.co/items/f2aa0251-70a5-4c09-808f-e3dd2934ee4c
+      \endverb
+    \endentry
+    \entry{ref7}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{RUA: Revista de Universidad y Sociedad del Conocimiento}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://rua.ua.es/dspace/handle/10045/94917
+      \endverb
+      \verb{url}
+      \verb https://rua.ua.es/dspace/handle/10045/94917
+      \endverb
+    \endentry
+    \entry{ref8}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Repositorio Institucional Universidad de Huánuco}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://repositorio.udh.edu.pe/handle/123456789/4102
+      \endverb
+      \verb{url}
+      \verb https://repositorio.udh.edu.pe/handle/123456789/4102
+      \endverb
+    \endentry
+    \entry{ref9}{article}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Venezolana de Información, Tecnología y Conocimiento}
+      \field{title}{Revista Venezolana de Información, Tecnología y Conocimiento}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1316-48212011000300004
+      \endverb
+      \verb{url}
+      \verb https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1316-48212011000300004
+      \endverb
+    \endentry
+    \entry{ref10}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Repositorio Institucional Universidad Católica de Pereira}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://repositorio.ucp.edu.co/entities/publication/5c635ff2-e3e9-4e78-9e6b-ff1b899a752b
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ucp.edu.co/entities/publication/5c635ff2-e3e9-4e78-9e6b-ff1b899a752b
+      \endverb
+    \endentry
+    \entry{ref11}{article}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Cubana de Información en Ciencias de la Salud}
+      \field{title}{Revista Cubana de Información en Ciencias de la Salud}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2307-21132018000400018
+      \endverb
+      \verb{url}
+      \verb http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2307-21132018000400018
+      \endverb
+    \endentry
+    \entry{ref12}{misc}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{IREGION: Revista de Ciencias Sociales y Humanas}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://journalusco.edu.co/index.php/iregion/article/view/825/1588?locale=es_ES
+      \endverb
+      \verb{url}
+      \verb https://journalusco.edu.co/index.php/iregion/article/view/825/1588?locale=es_ES
+      \endverb
+    \endentry
+    \entry{ref13}{article}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Política y Cultura}
+      \field{title}{Política y Cultura}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.scielo.org.mx/pdf/poli/n40/n40a9.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.scielo.org.mx/pdf/poli/n40/n40a9.pdf
+      \endverb
+    \endentry
+    \entry{ref14}{misc}{}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Sistema de Control de Acceso Utilizando Tecnologías RFID}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/382346861_SISTEMA_DE_CONTROL_DE_ACCESO_UTILIZANDO_TECNOLOGIAS_RFID
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/382346861_SISTEMA_DE_CONTROL_DE_ACCESO_UTILIZANDO_TECNOLOGIAS_RFID
+      \endverb
+    \endentry
+    \entry{ref15}{misc}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Tecnología RFID: ¿Qué Ventajas Tiene?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.tecnipesa.com/blog/69-tecnologia-rfid-que-ventajas-tiene
+      \endverb
+      \verb{url}
+      \verb https://www.tecnipesa.com/blog/69-tecnologia-rfid-que-ventajas-tiene
+      \endverb
+    \endentry
+    \entry{ref16}{misc}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Tecnología RFID en el Control Horario y de Asistencia}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://plain.ninja/blog/tecnologia-rfid-en-el-control-horario-y-de-asistencia
+      \endverb
+      \verb{url}
+      \verb https://plain.ninja/blog/tecnologia-rfid-en-el-control-horario-y-de-asistencia
+      \endverb
+    \endentry
+    \entry{ref17}{misc}{}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{QR vs RFID}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://innova-tech.mx/qr-vs-rfid
+      \endverb
+      \verb{url}
+      \verb https://innova-tech.mx/qr-vs-rfid
+      \endverb
+    \endentry
+    \entry{ref18}{misc}{}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{Control de Asistencia RFID}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.jibble.io/es/articulos/control-asistencia-rfid
+      \endverb
+      \verb{url}
+      \verb https://www.jibble.io/es/articulos/control-asistencia-rfid
+      \endverb
+    \endentry
+    \entry{ref19}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{7 Desafíos y Soluciones RFID}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.viaondarfid.com.br/es/7-desafíos-y-soluciones-RFID/
+      \endverb
+      \verb{url}
+      \verb https://www.viaondarfid.com.br/es/7-desaf%C3%ADos-y-soluciones-RFID/
+      \endverb
+    \endentry
+    \entry{ref20}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{Código QR Dinámico: Numerosas Ventajas para un Control de Acceso Más Seguro}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.segurilatam.com/actualidad/codigo-qr-dinamico-numerosas-ventajas-para-un-control-de-acceso-mas-seguro_20221214.html
+      \endverb
+      \verb{url}
+      \verb https://www.segurilatam.com/actualidad/codigo-qr-dinamico-numerosas-ventajas-para-un-control-de-acceso-mas-seguro_20221214.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
