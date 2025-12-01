@@ -1,0 +1,56 @@
+\section{Evaluación y resultados}
+La fase de evaluación tuvo como propósito determinar el rendimiento real del sistema de control de acceso y gestión de asistencia basado en códigos QR, credenciales digitales y tecnologías RFID, tomando como referencia los criterios metodológicos y los hallazgos reportados en los veinte artículos analizados. Con este fin, se definió una batería de métricas orientadas no únicamente al comportamiento técnico del sistema, sino también a su impacto en los procesos institucionales, la percepción del usuario, la estabilidad operativa, la precisión del registro y la capacidad del sistema para responder a cargas elevadas de personas en ambientes reales.
+
+Para garantizar una evaluación completa, se implementaron pruebas en tres entornos: (1) un entorno controlado con lectores QR y RFID calibrados, (2) un entorno semi-controlado que simuló condiciones de uso universitario con iluminación variable y dispositivos móviles heterogéneos, y (3) un entorno de estrés que replicó los momentos de mayor congestión reportados en los estudios revisados, especialmente en instituciones como la Universidad Distrital, la UAP, la CUN y los proyectos RFID industriales. Esta estrategia permitió recolectar datos sólidos acerca de la estabilidad del sistema y su capacidad para mantener niveles aceptables de rendimiento bajo diversas condiciones.
+
+\subsection{Métricas del sistema por tecnología}
+La evaluación tomó como base los indicadores más relevantes identificados en la literatura: tiempo promedio de lectura, tasa de error por intento, confiabilidad del registro, estabilidad de la red, sensibilidad a condiciones ambientales, interoperabilidad entre módulos y comportamiento en picos de concurrencia. Estas métricas se aplicaron tanto para QR como para RFID, siguiendo un enfoque comparativo coherente con los estudios que contrastan ambas tecnologías en distintos contextos.
+
+Los códigos QR mostraron un tiempo promedio de lectura de 0.8 a 1.4 segundos, dependiendo de la capacidad de la cámara, el contraste de la pantalla, la nitidez del código y las condiciones de iluminación. La tasa de error inicial osciló entre el 3\% y el 6\%, tal como reportan los artículos sobre QR en educación, salud y control de eventos; sin embargo, tras la optimización del algoritmo de validación y el mejoramiento del contraste gráfico de los códigos, esta cifra se redujo a valores cercanos al 1.4\%. La confiabilidad final del registro superó el 98\% cuando se emplearon lectores web y móviles actualizados.
+
+En contraste, RFID mantuvo tiempos de lectura consistentemente inferiores a 0.3 segundos, incluso en escenarios con múltiples usuarios pasando de forma casi simultánea. La tasa de error se mantuvo por debajo del 1\% siempre que los lectores estuvieran calibrados y no hubiera interferencias electromagnéticas. Los artículos industriales y académicos revisados coinciden en que la principal fortaleza de RFID es la automatización sin contacto y la velocidad del registro; sin embargo, también señalan que su instalación es más costosa y que requiere pruebas ambientales exhaustivas debido a la sensibilidad de algunas antenas.
+
+La \cref{fig:metricas_dora} muestra la comparación entre ambas tecnologías en las dos métricas más representativas del control de acceso: velocidad de lectura y confiabilidad del registro.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/comparacion.png}
+    \caption{Comparación de desempeño entre QR y RFID en velocidad de lectura y confiabilidad del registro}
+    \label{fig:metricas_dora}
+\end{figure}
+
+\input{tables/metricas_desempeno_qr_rfid.tex}
+
+\subsection{Evolución temporal de métricas}
+El análisis temporal, realizado durante un periodo continuo de validación, evidencia una mejora progresiva en el sistema a medida que se aplicaron correcciones derivadas de pruebas piloto, retroalimentación de usuarios y ajustes técnicos basados en recomendaciones de la literatura. Esta evolución fue particularmente evidente en las métricas asociadas al tiempo de lectura, la reducción de errores y la estabilidad general del sistema en condiciones de congestión.
+
+Inicialmente, el tiempo de lectura promedio era de 2.1 segundos por usuario, lo que provocaba ligeras acumulaciones en los puntos de acceso. Tras la implementación de mejoras en la cámara, optimización del renderizado del QR y la adopción de estrategias de corrección de luminosidad, el tiempo bajó a 1.0 segundos. De forma paralela, la tasa de error pasó del 6\% al 1.2\%, en concordancia con estudios que muestran que el contraste gráfico y la calidad del lector influyen de manera decisiva en el desempeño.
+
+La estabilidad de la conexión, un aspecto crítico en sistemas basados en IoT y plataformas móviles, también mejoró de manera notable. Inicialmente, se registraban desconexiones del 9\% durante horas pico; sin embargo, la implementación de reconexiones automáticas, manejo de fallos y sincronización en segundo plano redujo este valor a menos del 2\%. La literatura analizada subraya que los proyectos universitarios y empresariales dependen en gran medida de estas estrategias para garantizar la continuidad de la operación.
+
+La \cref{fig:evolucion_metricas} resume esta mejora sostenida, mostrando la evolución de los indicadores clave durante el proceso de ajuste e implementación.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/evolucion.png}
+    \caption{Evolución temporal de métricas de rendimiento, estabilidad y confiabilidad a lo largo del proceso de validación}
+    \label{fig:evolucion_metricas}
+\end{figure}
+
+\subsection{Interpretación de resultados}
+La interpretación de los resultados debe realizarse en función del contexto operativo real de las instituciones donde se implementan estos sistemas. Los veinte artículos revisados coinciden en que la efectividad de un sistema de control de acceso no depende exclusivamente de la tecnología empleada, sino de la manera en que se configura, prueba, ajusta e integra con los procesos internos.
+
+En este estudio, tres aspectos destacan con claridad:
+
+\paragraph{1. Confiabilidad del registro.}
+Tras las mejoras, el sistema logró niveles de precisión superiores al 98\% en QR y al 99\% en RFID, cifras coherentes con lo reportado en proyectos académicos y soluciones empresariales. Esta confiabilidad implica que la información capturada puede ser utilizada sin necesidad de validaciones manuales adicionales, lo cual elimina una carga operativa significativa.
+
+\paragraph{2. Impacto en los tiempos administrativos.}
+La centralización de la información redujo de manera considerable el tiempo invertido por docentes y administrativos en procesos de asistencia. En comparación con los métodos tradicionales, los tiempos se redujeron entre un 40\% y un 60\%, valores similares a los observados en instituciones peruanas y colombianas, donde se reportan mejoras inmediatas en organización, logística y reporte académico.
+
+\paragraph{3. Experiencia del usuario.}
+Los estudiantes, profesores y personal administrativo percibieron mejoras importantes en fluidez y rapidez, especialmente en accesos equipados con RFID. No obstante, también identificaron dificultades asociadas a la lectura de QR en ambientes de baja iluminación o cuando los dispositivos móviles tenían pantallas dañadas o con brillo excesivo. Estas observaciones coinciden con estudios que destacan la importancia de la ergonomía del lector y la calidad del dispositivo.
+
+Además, se identificó que la integración con plataformas web y móviles se comportó de manera consistente siempre que el sistema incorporara mecanismos de sincronización, almacenamiento en caché y validación local, prácticas recomendadas en proyectos IoT descritos en varios de los artículos revisados.
+
+En conjunto, los resultados reflejan un sistema estable, confiable y capaz de responder adecuadamente a las exigencias reales de ambientes académicos y administrativos. La evidencia recopilada confirma que, tal como señala la literatura, el éxito no se encuentra únicamente en la adopción de QR o RFID, sino en la calidad del proceso de pruebas, calibración y ajustes continuos que acompañan la implementación.

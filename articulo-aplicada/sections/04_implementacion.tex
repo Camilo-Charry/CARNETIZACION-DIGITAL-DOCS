@@ -1,0 +1,80 @@
+\section{Implementación del software}
+La implementación del sistema se desarrolló con el objetivo de ofrecer una herramienta confiable para el control de acceso y la gestión de asistencia mediante la lectura de credenciales digitales, códigos QR y dispositivos RFID. El desarrollo se abordó combinando principios de modularidad, escalabilidad y simplicidad operativa, para asegurar que el sistema pudiera ser adoptado sin dificultades por instituciones educativas o administrativas con necesidades similares.
+
+El software se concibió como un conjunto de componentes interdependientes, pero suficientemente desacoplados para facilitar su mantenimiento y evolución. Esto permitió trabajar de forma paralela en la aplicación móvil, en los módulos de procesamiento del servidor y en la plataforma de administración sin que el avance de un área se convirtiera en un obstáculo para las demás. Además, se buscó que el sistema pudiera funcionar de forma estable tanto en entornos con buena conectividad como en condiciones donde la red presenta variaciones.
+
+\subsection{Arquitectura del sistema}
+La arquitectura propuesta se diseñó siguiendo una estructura en capas, que separa la captura de datos, el procesamiento de solicitudes y la administración de registros. Este enfoque permitió construir un sistema flexible, en el que cada módulo cumple funciones específicas sin generar dependencias innecesarias.
+
+La primera capa, encargada de la captura de datos, integra dos mecanismos principales: (1) la aplicación móvil que lee códigos QR y (2) los lectores RFID ubicados en puntos estratégicos. Ambos dispositivos detectan la credencial del usuario, generan un identificador único y envían el registro al servidor. Se prestó especial atención a la estabilidad de estos lectores, ya que son el punto de contacto directo con los usuarios.
+
+La segunda capa corresponde al servidor de validación y procesamiento. Este módulo verifica que la credencial exista, comprueba que el usuario tenga autorización para ingresar, identifica si el acceso se produce dentro del horario permitido y registra la actividad en la base de datos. En esta etapa se incorporaron controles de seguridad adicionales, como la verificación del formato del código, restricciones temporales y validación contra registros duplicados.
+
+La última capa está conformada por la plataforma de administración accesible desde una interfaz web. Esta plataforma permite consultar accesos en tiempo real, revisar reportes diarios y analizar patrones de asistencia. Además, ofrece herramientas para gestionar usuarios, generar estadísticas y detectar incidencias como intentos fallidos o accesos repetidos en un intervalo muy corto.
+
+La \cref{fig:correlacion_devops} se reutiliza en este contexto para representar la relación entre el nivel de automatización en la lectura (QR o RFID) y la disminución del tiempo necesario para registrar a cada usuario. A medida que se automatiza el proceso de identificación, el tiempo promedio por lectura se reduce de forma significativa, lo que evita filas y congestiones en momentos de alta afluencia.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.46\textwidth]{graphics/correlacion.png}
+    \caption{Relación entre automatización (QR/RFID) y tiempos promedio de registro en los puntos de acceso}
+    \label{fig:correlacion_devops}
+\end{figure}
+
+\subsection{Fragmento de código}
+El siguiente fragmento ilustra parte de la lógica empleada en la aplicación móvil para procesar un código QR. La función recibe el contenido del código leído, consulta la base de datos para identificar al usuario asociado y registra el acceso en el sistema. Aunque se trata de un ejemplo simplificado, refleja el procedimiento general que sigue el sistema en cada lectura.
+
+\ifminted
+\begin{minted}[linenos]{python}
+def validar_qr(data: str) -> dict:
+    """Valida un QR escaneado y registra el acceso.
+    
+    Args:
+        data: Contenido extraído del código QR.
+        
+    Returns:
+        Diccionario con el estado del proceso y un mensaje descriptivo.
+    """
+    usuario = buscar_usuario_por_qr(data)
+    if usuario is None:
+        return {"ok": False, "msg": "El QR no corresponde a una credencial válida."}
+
+    registrar_acceso(usuario.id)
+    return {
+        "ok": True,
+        "msg": f"Acceso exitoso. Bienvenido {usuario.nombre}."
+    }
+\end{minted}
+\else
+\begin{lstlisting}[language=Python]
+def validar_qr(data: str) -> dict:
+    """Valida un QR escaneado y registra el acceso.
+    
+    Args:
+        data: Contenido extraído del código QR.
+        
+    Returns:
+        Diccionario con el estado del proceso y un mensaje descriptivo.
+    """
+    usuario = buscar_usuario_por_qr(data)
+    if usuario is None:
+        return {"ok": False, "msg": "El QR no corresponde a una credencial válida."}
+
+    registrar_acceso(usuario.id)
+    return {
+        "ok": True,
+        "msg": f"Acceso exitoso. Bienvenido {usuario.nombre}."
+    }
+\end{lstlisting}
+\fi
+
+En el caso de RFID, el procedimiento es similar, con la diferencia de que el identificador enviado proviene del chip de la tarjeta y no de una imagen. Esto permite que el sistema opere incluso sin intervención directa del usuario.
+
+\subsection{Comparación de tecnologías}
+La elección de las tecnologías utilizadas en la implementación requirió un análisis cuidadoso. Se evaluaron distintos mecanismos de identificación, frameworks para el desarrollo de la aplicación móvil, herramientas para la construcción del servidor y opciones para la interfaz administrativa. El proceso incluyó criterios como rendimiento, compatibilidad, facilidad de implementación, costo operativo y adaptabilidad a distintos contextos institucionales.
+
+En lo referente a la tecnología de lectura, el código QR se destacó por su bajo costo y la facilidad con la que puede generarse y distribuirse, mientras que RFID mostró ventajas claras en velocidad y automatización. Para aplicaciones móviles, se evaluaron frameworks híbridos y nativos, priorizando aquellos que ofrecían acceso estable a la cámara y a la red. Para la plataforma administrativa, se valoró la estabilidad frente a altos volúmenes de consultas y la capacidad de ofrecer datos en tiempo real.
+
+La \cref{tab:frameworks} resume estas comparaciones y justifica la selección final de tecnologías empleadas en el proyecto.
+
+\input{tables/frameworks_comparison.tex}

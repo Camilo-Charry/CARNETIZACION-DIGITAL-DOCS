@@ -1,0 +1,38 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.45\textwidth]{graphics/comparacion.png}
+    \caption{Comparación multi-criterio entre QR, RFID pasivo y RFID activo en sistemas de control de acceso}
+    \label{fig:comparacion_metodologias}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.46\textwidth]{graphics/correlacion.png}
+    \caption{Relación entre automatización (QR/RFID) y tiempos promedio de registro en los puntos de acceso}
+    \label{fig:correlacion_devops}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/comparacion.png}
+    \caption{Comparación de desempeño entre QR y RFID en velocidad de lectura y confiabilidad del registro}
+    \label{fig:metricas_dora}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/evolucion.png}
+    \caption{Evolución temporal de métricas de rendimiento, estabilidad y confiabilidad a lo largo del proceso de validación}
+    \label{fig:evolucion_metricas}
+\end{figure*}

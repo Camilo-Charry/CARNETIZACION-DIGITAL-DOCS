@@ -1,0 +1,34 @@
+\section{Metodología de investigación aplicada}
+
+\subsection{Diseño}
+El estudio se desarrolló bajo un enfoque de investigación aplicada, orientado a evaluar el funcionamiento real de sistemas de control de acceso basados en credenciales digitales, códigos QR y tecnología RFID. Se empleó un diseño de carácter mixto que combinó elementos descriptivos y experimentales, permitiendo observar el comportamiento del sistema tanto en condiciones controladas como en escenarios operativos reales.
+
+La estructura general siguió un ciclo iterativo similar al modelo planificar–actuar–observar–analizar, lo que facilitó introducir mejoras progresivas en el sistema. Cada iteración incluyó pruebas de funcionamiento, medición de tiempos de registro, análisis de errores y ajustes en los módulos de lectura, almacenamiento y verificación de datos. Este diseño permitió documentar con detalle el desempeño de cada tecnología y las variaciones que surgían en función del entorno, el volumen de usuarios y las condiciones de operación.
+
+\subsection{Comparación de metodologías}
+Para seleccionar el enfoque tecnológico más adecuado, se realizó una comparación sistemática de las principales alternativas implementadas en la literatura: códigos QR, RFID pasivo y RFID activo. La comparación se basó en criterios como velocidad de lectura, costo de implementación, dependencia de hardware, tolerancia a fallos, facilidad de integración con sistemas web y precisión del registro.
+
+Los criterios fueron ponderados con base en las necesidades del proyecto: rapidez en horas pico, confiabilidad del dato, posibilidad de operar sin conectividad temporal y facilidad de adopción por parte de los usuarios. La \cref{fig:comparacion_metodologias} sintetiza esta evaluación, mostrando el rendimiento relativo de cada tecnología en los aspectos más relevantes para contextos educativos y administrativos.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.45\textwidth]{graphics/comparacion.png}
+    \caption{Comparación multi-criterio entre QR, RFID pasivo y RFID activo en sistemas de control de acceso}
+    \label{fig:comparacion_metodologias}
+\end{figure}
+
+El análisis permitió identificar que, aunque el RFID ofrece ventajas en velocidad y automatización, el código QR presenta un equilibrio adecuado entre costo, accesibilidad y estabilidad, especialmente en instituciones que requieren soluciones escalables sin una alta inversión inicial.
+
+\subsection{Datos e instrumentos}
+La recolección de datos se realizó mediante un conjunto de instrumentos diseñados para capturar información operativa del sistema. Entre los datos cuantitativos se registraron tiempos de lectura, tasa de errores, volumen de accesos por franja horaria, rendimiento de los lectores y estabilidad de la conexión entre dispositivos móviles y servidores. Estos registros se obtuvieron tanto en pruebas de laboratorio como en sesiones de uso real.
+
+Los datos cualitativos procedieron de observaciones directas, anotaciones de campo y comentarios de los usuarios durante las pruebas piloto. Estas observaciones permitieron identificar aspectos como la facilidad de uso, la claridad del proceso de escaneo, dificultades en la lectura del código y percepción general sobre el sistema.
+
+Se emplearon aplicaciones móviles configuradas como lectores de QR, lectores RFID de corto alcance, servidores locales para pruebas y una base de datos central encargada de almacenar los registros. Para el análisis de la información se utilizaron hojas de cálculo, tablas comparativas y registros exportados desde los sistemas de lectura y autenticación.
+
+\subsection{Procedimiento y validez}
+El procedimiento se estructuró en fases consecutivas. La primera correspondió a la configuración técnica de los lectores y la construcción de la base de datos. La segunda incluyó pruebas controladas en ambientes con baja concurrencia para medir la precisión y el tiempo de respuesta. La tercera consistió en ejecutar pruebas piloto en escenarios reales, incorporando estudiantes, personal administrativo y puntos de acceso con diferente carga operativa.
+
+Para asegurar la validez del estudio se consideraron cuatro dimensiones. La validez interna se abordó controlando factores externos como la iluminación, la distancia de lectura y la estabilidad de la red. La validez externa se analizó comparando los resultados con los reportados en estudios previos y evaluando la posibilidad de replicar el sistema en instituciones con características similares. La validez de constructo se garantizó mediante la definición clara de cada indicador (tiempo de lectura, error de registro, tasa de fallos, etc.). Finalmente, la validez de conclusión se fortaleció triangulando datos cuantitativos y observaciones cualitativas.
+
+Las pruebas evidenciaron que los sistemas basados en código QR ofrecen una relación costo–beneficio adecuada para la mayoría de instituciones, mientras que RFID resulta más efectivo en entornos que demandan automatización continua y alta fluidez en puntos de ingreso.

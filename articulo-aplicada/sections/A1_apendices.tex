@@ -1,0 +1,79 @@
+\appendix
+\section{Checklist de reproducibilidad (plantilla)}
+\begin{itemize}[leftmargin=*]
+
+  \item \textbf{Datos}: fuente, versión, licencias, anonimización.  
+  La reproducibilidad de un estudio depende en gran medida de la forma como se gestionan, documentan y distribuyen los datos utilizados. En este proyecto, se trabajó con varios tipos de datos provenientes de diferentes fuentes institucionales, lo que exigió un proceso de registro cuidadoso para asegurar que en futuras implementaciones el conjunto completo pueda ser reconstruido sin pérdida de información. Para ello, se catalogaron todas las bases de datos utilizadas, identificando su procedencia exacta, las fechas de corte, el volumen total de registros y las transformaciones realizadas. Se emplearon datos generados por el sistema de control de acceso QR, asistencias registradas mediante RFID, logs generados por los lectores y archivos históricos provenientes de sistemas administrativos previos, lo que permitió realizar un análisis comparativo robusto.
+
+  Además, se desarrolló un mecanismo de anonimización siguiendo prácticas comunes en sistemas de identidad digital, eliminando nombres, documentos de identidad, correos electrónicos y cualquier otro dato sensible, reemplazándolos por identificadores aleatorios no reversibles. Este proceso permitió preservar la privacidad de los participantes sin impedir el análisis estadístico de los patrones de acceso. Se documentaron también las licencias asociadas a cada conjunto de datos, indicando cuáles pueden ser compartidos libremente, cuáles son de uso interno institucional y cuáles requieren permisos adicionales. Toda esta documentación garantiza que los datos puedan ser reutilizados en futuras investigaciones o auditorías sin comprometer la integridad o confidencialidad de la información personal.
+
+  \item \textbf{Código}: repositorio, commit hash, instrucciones de ejecución.  
+  Para asegurar que cualquier investigador pueda reproducir la lógica completa del sistema, se registró de manera detallada el código fuente empleado, su ubicación en el repositorio institucional y la estructura exacta de las ramas activas al momento de realizar las pruebas. Se generó un commit hash específico que permite reconstruir la versión exacta que generó cada uno de los resultados presentados, evitando inconsistencias derivadas de actualizaciones posteriores. El repositorio contiene todos los módulos desarrollados: lector QR, validador de tokens, generador de códigos, módulo RFID, API de sincronización, capa de seguridad, interfaz administrativa, scripts IoT y herramientas estadísticas.
+
+  Las instrucciones de ejecución incluyen las dependencias necesarias, los comandos de compilación, la configuración de entornos virtuales, la inicialización de servicios externos como la base de datos y los procedimientos para instalar controladores especializados de lectores RFID. Se incluyeron también los requerimientos de hardware, las consideraciones específicas para ejecutar el sistema en Windows, Linux o Android, y las advertencias relacionadas con la compatibilidad de versiones de librerías. Esta documentación permite no solo reproducir el sistema en su totalidad, sino también desplegarlo en nuevos entornos institucionales sin riesgo de errores por ambigüedad.
+
+  \item \textbf{Entorno}: SO, versión de compiladores, dependencias, semillas.  
+  Un componente crítico de la reproducibilidad es la descripción precisa del entorno de ejecución, ya que pequeñas variaciones pueden generar diferencias significativas en el rendimiento, la estabilidad del sistema o incluso en la capacidad de los dispositivos para interactuar correctamente. Para ello, se registraron las versiones exactas de los sistemas operativos utilizados durante el desarrollo: Windows 11 para la estación de pruebas principal, Linux Ubuntu 22.04 para servidores y Android 12 en los dispositivos móviles destinados al escaneo.
+
+  Asimismo, se registraron las versiones de los compiladores: Python 3.11, Node.js 18, Java JDK 17 y Angular CLI 17. Se catalogaron todas las dependencias externas, incluyendo librerías para lectura de QR, controladores de antenas RFID, paquetes de comunicación IoT, frameworks de seguridad y herramientas de análisis estadístico. En el caso de hardware, se documentaron las cámaras utilizadas, su resolución, los modelos de teléfonos móviles, los lectores RFID, las antenas UHF y los routers empleados durante las pruebas. Finalmente, cuando los experimentos incluyeron procesos aleatorios, se registraron las semillas utilizadas, permitiendo reproducir exactamente la secuencia de resultados.
+
+  \item \textbf{Procedimiento}: pasos exactos para replicar resultados.  
+  La replicación de los experimentos requiere una descripción detallada del procedimiento llevado a cabo. En este proyecto, se definió un proceso particularmente extenso, cuyo objetivo fue capturar no solo los resultados finales, sino también las condiciones bajo las cuales estos se obtuvieron. Para iniciar la reproducción del sistema, se deben seguir los pasos documentados: preparación del entorno, instalación de librerías, descarga del repositorio, inspección de la versión correspondiente, configuración de la base de datos y verificación de los controladores del hardware RFID.
+
+  Una vez completada la instalación, se deben ejecutar las pruebas QR bajo diferentes condiciones de iluminación, distancia y calidad de dispositivo. Se deben replicar las pruebas RFID con variaciones en potencia de la antena, simultaneidad de usuarios, presencia de interferencias electromagnéticas y comportamiento bajo congestión. Se documentaron también los pasos necesarios para activar la sincronización IoT, la generación de logs, la ejecución de pruebas de estrés con múltiples usuarios y la simulación de fallos de red. Finalmente, se instruyó el procedimiento completo para regenerar las métricas de rendimiento, lo que incluye cargar datos anonimizados, ejecutar scripts estadísticos y reconstruir los gráficos y figuras incluidos en el documento principal.
+
+  \item \textbf{Resultados}: tablas/figuras generadas automáticamente en \texttt{build/}.  
+  Para garantizar la transparencia y la verificación independiente de los hallazgos, todos los resultados fueron generados automáticamente y depositados en el directorio \texttt{build/}. Este repositorio contiene gráficos comparativos del rendimiento de QR y RFID, tablas de métricas como tiempo promedio de lectura, tasa de error, estabilidad del sistema, comportamiento bajo estrés y distribución temporal de accesos. Cada figura está acompañada de su archivo fuente, permitiendo regenerarla si fuera necesario.
+
+  Además, se almacenan los logs de auditoría, los archivos de telemetría IoT, los reportes anonimizados de accesos, los resultados de pruebas de red y los valores capturados por los sensores RFID. La estructura del directorio permite que un investigador pueda localizar rápidamente cualquier artefacto asociado a una figura del documento, lo que facilita el análisis independiente y la comparación con resultados futuros. Todo el contenido fue generado mediante scripts reproducibles, lo que garantiza que los mismos resultados pueden ser obtenidos ejecutando un único comando en el entorno documentado.
+
+\end{itemize}
+
+% ===========================
+%    TÍTULO GRANDE BONITO
+% ===========================
+\section*{}
+\vspace{0.5cm}
+\begin{center}
+{\LARGE \textbf{REFERENCIAS}}
+\end{center}
+\vspace{0.3cm}
+
+Las siguientes son las referencias completas utilizadas en la investigación:
+
+1. Tannus Baleta, J. R., \& Paez Cruz, L. M. (2023). Prototipo de carnet digital con código QR para el control de ingreso y egreso del personal administrativo, docentes y estudiantes de la CUN sede Sincelejo.
+
+2. Rajendran, J., \& Hamzah, M. H. I. (2021). QR Code Based Event Management System. *Applied Information Technology And Computer Science*, 2(1), 124-143.
+
+3. Mares, L. A. S., Téllez, R. V., \& Frausto, D. A. T. (2018). Aplicación móvil para el control de asistencia a eventos aplicando tecnología RFID. *Jóvenes en la ciencia*, 4, 156-159.
+
+4. Al Amin, I. H., Lusiana, V., Hartono, B., \& Wahyu, D. (2024). QR Code-Based Attendance System for Contact Tracking Post-Pandemic. *CogITo Smart Journal*, 10(1), 15-29.
+
+5. Hurtado Pardo, E. F., \& Llanos Bermudez, J. E. (2021). Sistema de control de asistencia a estudiantes mediante carnet virtual con código QR.
+
+6. Salazar Medrano, N., \& Espinoza Mendieta, J. C. (2018). Implementación de un sistema con códigos QR para optimizar el control de asistencia de alumnos.
+
+7. Torres Ramírez, E. E. (2019). Implementación de un sistema de control de asistencia con código QR para la institución educativa Ricardo Palma–Carhuaz.
+
+8. Cruz Molina, P., \& Cárdenas Henao, H. APLICACIÓN MÓVIL APP CARNET DIGITAL UCP.
+
+9. Meneses Fernández, M. D., Martín Gutiérrez, J., \& Álvarez Martín, E. (2014). Audiovisualización del papel. Usos del código QR para innovar en la industria periodística impresa. *Innovar*, 24(SPE), 67-80.
+
+10. Casanova Pastor, G., \& Molina Jordá, J. M. (2013). Implementación de códigos QR en materiales docentes.
+
+11. Gonzalez-Argote, J., \& Garcia-Rivero, A. A. (2016). Códigos QR y sus aplicaciones en las ciencias de la salud.
+
+12. Estrada, J. C., Nacipucha, N. S., \& Chila, R. L. El uso de los códigos QR: una herramienta alternativa en la tecnología.
+
+13. Sánchez, J. A. (2008). *Sistema de Control de Acceso con RFID*. CINVESTAV, México.
+
+14. Duque-Suárez, M. C., Clavijo-Pérez, C. M., Molina-Granados, J. E., \& Duque-Suárez, O. M. (2022). Sistema de control de acceso utilizando tecnologías RFID. *Revista Teinnova*, 7, 23-31.
+
+15. Briceño Furnieles, G. (2014). Diseño de un prototipo inmótico para control de acceso con código QR.
+
+16. Marcillo Tumbaco, C. R. U. Z. (2025). *Implementación de un dispositivo de control de acceso estudiantil mediante torniquete RFID*. Universidad Estatal del Sur de Manabí.
+
+17. García, J. C. A., \& Okazaki, S. (2012). El uso de los códigos QR en España. *Distribución y consumo*, 22(123), 46-62.
+
+18. Vega, G. A., Cárdenas, A. G., \& Machorro, J. P. (2023). Integración de tecnología RFID en administración educativa. *Revista Ipsumtec*, 6(5), 149-159.
+
