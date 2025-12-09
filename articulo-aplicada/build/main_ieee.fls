@@ -321,6 +321,9 @@ INPUT ./sections/A1_apendices.tex
 INPUT ./sections/A1_apendices.tex
 INPUT ./sections/A1_apendices.tex
 INPUT sections/A1_apendices.tex
+INPUT ./graphics/referencia.png
+INPUT ./graphics/referencia.png
+INPUT ./graphics/referencia.png
 INPUT build/main_ieee.aux
 INPUT build/main_ieee.out
 INPUT build/main_ieee.out

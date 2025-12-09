@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.11)  1 DEC 2025 22:57
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.11)  9 DEC 2025 03:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -911,10 +911,18 @@ File: graphics/comparacion.png Graphic file (type bmp)
 (./tables/metricas_desempeno_qr_rfid.tex)
 File: graphics/evolucion.png Graphic file (type bmp)
 <graphics/evolucion.png>
-[6]) (./sections/06_discusion.tex [7]) (./sections/07_conclusiones.tex [8] [9])
-(./sections/A1_apendices.tex
+[6]) (./sections/06_discusion.tex [7] [8]) (./sections/07_conclusiones.tex [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10] [11]) (./sections/A1_apendices.tex
 ** WARNING: Ignoring useless \section in Appendix (line 2).
-[10])
+[12]
+File: graphics/referencia.png Graphic file (type bmp)
+<graphics/referencia.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[13])
 
 LaTeX Warning: Empty bibliography on input line 34.
 
@@ -929,7 +937,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[11] (build/main_ieee.aux
+[14
+
+] (build/main_ieee.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -942,18 +952,18 @@ L3 programming layer <2025-10-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main_ieee.out' has not changed.
-(rerunfilecheck)             Checksum: 3452DDD313FDC16C9795A236EBD4CD88;3186.
+(rerunfilecheck)             Checksum: 9FE652184E14358B2B71A64B69816AB0;3187.
 Package logreq Info: Writing requests to 'main_ieee.run.xml'.
 \openout1 = `main_ieee.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31689 strings out of 468179
- 669900 string characters out of 5435042
- 1666203 words of memory out of 5000000
- 60051 multiletter control sequences out of 15000+600000
+ 31701 strings out of 468179
+ 670182 string characters out of 5435042
+ 1666204 words of memory out of 5000000
+ 60062 multiletter control sequences out of 15000+600000
  631196 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  78i,13n,83p,1133b,4045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_ieee.xdv (11 pages, 591216 bytes).
+Output written on build/main_ieee.xdv (14 pages, 708580 bytes).

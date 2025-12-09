@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex build/main_acm"] 1764629856.5475 "build/main_acm.aux" "build/main_acm.bbl" "build/main_acm" 1764629866.11782 0
+["bibtex build/main_acm"] 1765252724.57579 "build/main_acm.aux" "build/main_acm.bbl" "build/main_acm" 1765252746.82297 0
   "./bibliography/references.bib" 1764628896.70705 6791 4d7247c05d477e5235215197e71f4de5 ""
   "/opt/texlive/texdir/texmf-dist/bibtex/bst/acmart/ACM-Reference-Format.bst" 1748720794 93560 12e0ced1522ea2bfa9b2fb12855c7e9e ""
-  "build/main_acm.aux" 1764629851.99679 6646 36ad4a3fad187b6bcb3ce99c411f5ffe "xelatex"
+  "build/main_acm.aux" 1765252721.91584 6647 2d28a3c9c3312b14af5f6b19373f5500 "xelatex"
   (generated)
   "build/main_acm.bbl"
   "build/main_acm.blg"
   (rewritten before read)
-["xdvipdfmx"] 1764629865.32936 "build/main_acm.xdv" "build/main_acm.pdf" "build/main_acm" 1764629866.15929 0
-  "build/main_acm.xdv" 1764629852.01108 617812 231ba1ff1899811835e7e98e054733c9 "xelatex"
+["xdvipdfmx"] 1765252738.72046 "build/main_acm.xdv" "build/main_acm.pdf" "build/main_acm" 1765252746.88495 0
+  "build/main_acm.xdv" 1765252721.93806 736280 cc106fdb4eba500d3eb7f2360f2628ca "xelatex"
   (generated)
   "build/main_acm.pdf"
   (rewritten before read)
-["xelatex"] 1764629856.71743 "main_acm.tex" "build/main_acm.xdv" "main_acm" 1764629866.12492 0
+["xelatex"] 1765252724.84993 "main_acm.tex" "build/main_acm.xdv" "main_acm" 1765252746.83333 0
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -151,25 +151,26 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1762820155 5947733 f9ec70909dd355025eb19ad496faad37 ""
   "/opt/texlive/texdir/texmf.cnf" 1759376174 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "build/main_acm.aux" 1764629851.99679 6646 36ad4a3fad187b6bcb3ce99c411f5ffe "xelatex"
-  "build/main_acm.bbl" 1764629843.54754 1712 4d28b6ea748d03d80535fe94a7371ddb "bibtex build/main_acm"
-  "build/main_acm.log" 1764629852.01108 94435 9212501e9e64268689a91a8c6d67bf9d "xelatex"
-  "build/main_acm.out" 1764629852.00426 3882 c78df9fdb1d35d22dfd3a5ed463e35c6 "xelatex"
+  "build/main_acm.aux" 1765252721.91584 6647 2d28a3c9c3312b14af5f6b19373f5500 "xelatex"
+  "build/main_acm.bbl" 1765252708.26453 1712 4d28b6ea748d03d80535fe94a7371ddb "bibtex build/main_acm"
+  "build/main_acm.log" 1765252721.93916 95165 8c82e81518ca40708ea68087cd0fc950 "xelatex"
+  "build/main_acm.out" 1765252721.92646 3882 a3661c856c6a844ef25c914f342a81af "xelatex"
   "graphics/comparacion.png" 1764626587.21509 159041 c2a10c5a8c7b2ed3242e32c2c3900358 ""
   "graphics/correlacion.png" 1764626600.40481 106940 b7ef94976ace8b9a06157b951a3107b2 ""
   "graphics/evolucion.png" 1764626577.98613 67811 8c0eba9e23f02639c7621c72a1e268fc ""
+  "graphics/referencia.png" 1765248281.09896 1798995 394c9cab742e92512eb2935d9eedee8d ""
   "includes/preamble_acm.tex" 1764615448.56673 118 3f1ba5b5d56dca6cd0336ca2b9c163d0 ""
   "includes/preamble_common.tex" 1764615448.57601 1297 07518923b9f4f85072fe97d52092a43e ""
-  "main_acm.tex" 1764616117.6707 1076 0c6ae9ba2153e2d98f6e7ef15baf4b6f ""
+  "main_acm.tex" 1765251197.04448 1031 f1b3e0dcd4f495f0e8501864c7a82715 ""
   "sections/00_abstract.tex" 1764617011.27865 1573 c1a370cf89680c9bdaa120365f078c0a ""
   "sections/01_introduccion.tex" 1764616838.69631 2705 45478bce710a582f7432770ceff35094 ""
   "sections/02_relacionados.tex" 1764623454.94034 7311 604821a436eb103780e9307b2618a2a1 ""
   "sections/03_metodologia.tex" 1764626928.35451 5114 cabfef53e6c522c448adb0001c88a807 ""
   "sections/04_implementacion.tex" 1764626933.98344 6451 7b2749ec1901807c99ade2f186cd9f37 ""
   "sections/05_resultados.tex" 1764626947.0571 8355 947bf710116658441c914005b8f97f03 ""
-  "sections/06_discusion.tex" 1764622036.05747 8449 422562117305d847be003db9558d94ed ""
-  "sections/07_conclusiones.tex" 1764622313.50192 8495 fd1081e29cbad3ad4f8f5aafcdfc1a43 ""
-  "sections/A1_apendices.tex" 1764629813.43523 10381 c9ebf9c1030141464af9d50030f23c2c ""
+  "sections/06_discusion.tex" 1765250426.48032 11034 fae8420d2f8f53e69188a495e2de7795 ""
+  "sections/07_conclusiones.tex" 1765252637.01418 17863 39f85f797ba9814196b8486a61ce2251 ""
+  "sections/A1_apendices.tex" 1765249883.60174 10358 b46f797faffa41cf6262beaf7cc5837e ""
   "tables/comparacion_qr_rfid.tex" 1764624665.44432 866 02585c88d181b8b49579c4694dc5014b ""
   "tables/frameworks_comparison.tex" 1764624634.521 650 1bb06de550c30298ea5ff27ea62fc44c ""
   "tables/metricas_desempeno_qr_rfid.tex" 1764624657.38335 753 5a8004e17a31c3d5528978126e5312ef ""

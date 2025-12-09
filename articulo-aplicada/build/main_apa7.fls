@@ -480,6 +480,9 @@ INPUT ./graphics/comparacion.png
 INPUT ./graphics/evolucion.png
 INPUT ./graphics/evolucion.png
 INPUT ./graphics/evolucion.png
+INPUT ./graphics/referencia.png
+INPUT ./graphics/referencia.png
+INPUT ./graphics/referencia.png
 INPUT build/main_apa7.aux
 INPUT build/main_apa7.out
 INPUT build/main_apa7.out

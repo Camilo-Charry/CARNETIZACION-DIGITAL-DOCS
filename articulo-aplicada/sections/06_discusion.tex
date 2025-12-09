@@ -1,4 +1,26 @@
 \section{Discusión}
+
+ Discusión: El Gran Salto y sus Peligros Ocultos
+El paso a la tecnología QR/RFID es un "agilizador" indispensable, pero hay que ser honestos: su éxito real está completamente condicionado por la forma en que el equipo gestor maneja los desafíos que no se ven en el folleto.
+
+ Integridad Operacional: La Prueba de Fuego de la Escalabilidad
+Aquí es donde la promesa choca con la realidad. La eficiencia se esfuma si el sistema no puede manejar la demanda masiva.
+
+Confiabilidad en Tiempo Real: El dato debe ser incuestionable. La implementación debe ser diseñada para blindar al sistema contra la posibilidad de colapsar o, peor aún, registrar datos erróneos de forma silenciosa. Esto pasa justamente cuando hay la mayor concurrencia de usuarios, como en la hora pico de ingreso a una universidad o a un concierto [15]. Un solo fallo en la conexión puede significar la pérdida irrecuperable de cientos de registros. El diseño debe contemplar mecanismos de caché y failover robustos.
+
+ La Tensión entre Eficiencia y Privacidad: El Punto más Delicado
+Este es el aspecto que genera más controversia y que puede llevar a problemas éticos y legales serios.
+
+El Dilema: En sistemas de rastreo o en el control de asistencia laboral, la implementación crea una tensión ineludible entre lo que es eficiente (saber dónde está la persona) y el derecho fundamental a la privacidad del usuario [5].
+
+Ir Más Allá del Cifrado Básico: La seguridad de la información es un punto demasiado delicado. No basta con decir que usamos cifrado AES. Es fundamental garantizar que la base de datos centralizada, que es la que gestiona todos los accesos, esté totalmente blindada contra cualquier vulnerabilidad externa o interna. Si ese sistema cae, la confianza se pierde y el sistema se convierte en una amenaza latente a la privacidad del personal y los estudiantes.
+
+ Desafíos de Integración en Entornos IoT (Internet de las Cosas)
+Cuando el sistema se vuelve más complejo, como en un entorno universitario donde todo está conectado (IoT multiplataforma), los retos de integración se multiplican [6].
+
+Transversalidad de los Datos: La información de asistencia a clases debe cruzarse automáticamente con otros registros (uso de bibliotecas, acceso a laboratorios, servicios médicos). Si esa integración no se hace de manera correcta, el dato pierde su utilidad. Un error de software en esta etapa puede anular el valor transversal de la información y comprometer la seguridad de toda la red, lo que exigiría una rigurosa fase de control de calidad antes de desplegar.
+
+
 La evaluación realizada permite no solo validar el comportamiento técnico del sistema de control de acceso basado en códigos QR y RFID, sino también comprender las implicaciones más amplias que estas tecnologías tienen en los entornos institucionales. La literatura revisada muestra una tendencia clara hacia la adopción de mecanismos digitales que permitan automatizar la identificación de personas y la gestión de asistencia, y los resultados obtenidos en este estudio confirman la pertinencia de dicha tendencia.
 
 Un primer aspecto relevante es la convergencia entre los hallazgos empíricos de este estudio y los reportes documentados en las investigaciones previas. En la mayor parte de los artículos analizados —especialmente aquellos desarrollados en universidades colombianas, peruanas, mexicanas y cubanas— se identifica una problemática común: la gestión de asistencia manual no es sostenible en instituciones con altos volúmenes de usuarios y necesidades crecientes de información confiable. En todos estos contextos, los sistemas basados en códigos QR o RFID emergen como alternativas viables, pero con capacidades y limitaciones distintas. Esta dualidad también se evidenció en los resultados de este proyecto.

@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber build/main_ieee"] 1764622633.81158 "build/main_ieee.bcf" "build/main_ieee.bbl" "build/main_ieee" 1764629844.91444 0
-  "build/main_ieee.bcf" 1764629832.37572 107815 7ccfd3839ed976ec1b8f9372fe6166b5 "xelatex"
+["biber build/main_ieee"] 1764622633.81158 "build/main_ieee.bcf" "build/main_ieee.bbl" "build/main_ieee" 1765252708.5618 0
+  "build/main_ieee.bcf" 1765252683.57897 107815 7ccfd3839ed976ec1b8f9372fe6166b5 "xelatex"
   (generated)
   "build/main_ieee.bbl"
   "build/main_ieee.blg"
   (rewritten before read)
-["xdvipdfmx"] 1764629844.12038 "build/main_ieee.xdv" "build/main_ieee.pdf" "build/main_ieee" 1764629844.95264 0
-  "build/main_ieee.xdv" 1764629832.38271 591216 d9554c66422c4a45368af94d79300944 "xelatex"
+["xdvipdfmx"] 1765252701.88801 "build/main_ieee.xdv" "build/main_ieee.pdf" "build/main_ieee" 1765252708.62916 0
+  "build/main_ieee.xdv" 1765252683.58976 708580 227b784261bbd6535265ea9aeca7fcf9 "xelatex"
   (generated)
   "build/main_ieee.pdf"
   (rewritten before read)
-["xelatex"] 1764629829.91789 "main_ieee.tex" "build/main_ieee.xdv" "main_ieee" 1764629844.91955 0
+["xelatex"] 1765252691.7885 "main_ieee.tex" "build/main_ieee.xdv" "main_ieee" 1765252708.56996 0
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -116,13 +116,14 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1762820155 5947733 f9ec70909dd355025eb19ad496faad37 ""
   "/opt/texlive/texdir/texmf.cnf" 1759376174 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "build/main_ieee.aux" 1764629832.35769 6437 fc7fafcbb57048c0cf45a93e5455fcf8 "xelatex"
+  "build/main_ieee.aux" 1765252683.53104 6438 3c50b76e09e5649e1bd1e7d11fc49d9d "xelatex"
   "build/main_ieee.bbl" 1764622639.82887 466 76d65a242ec496c9b4361af646ff12cb "biber build/main_ieee"
-  "build/main_ieee.out" 1764629832.36772 3186 3452ddd313fdc16c9795a236ebd4cd88 "xelatex"
-  "build/main_ieee.run.xml" 1764629832.38082 2485 0ba1907dbee54dff766aca4568862115 "xelatex"
+  "build/main_ieee.out" 1765252683.56574 3187 9fe652184e14358b2b71a64b69816ab0 "xelatex"
+  "build/main_ieee.run.xml" 1765252683.58765 2485 0ba1907dbee54dff766aca4568862115 "xelatex"
   "graphics/comparacion.png" 1764626587.21509 159041 c2a10c5a8c7b2ed3242e32c2c3900358 ""
   "graphics/correlacion.png" 1764626600.40481 106940 b7ef94976ace8b9a06157b951a3107b2 ""
   "graphics/evolucion.png" 1764626577.98613 67811 8c0eba9e23f02639c7621c72a1e268fc ""
+  "graphics/referencia.png" 1765248281.09896 1798995 394c9cab742e92512eb2935d9eedee8d ""
   "includes/preamble_common.tex" 1764615448.57601 1297 07518923b9f4f85072fe97d52092a43e ""
   "includes/preamble_ieee.tex" 1764615448.57601 197 573056a63be43d00a6086c02eb744e4f ""
   "main_ieee.tex" 1764616453.03514 948 31597bfbd9e96b423f4228f70cd7eb07 ""
@@ -132,9 +133,9 @@
   "sections/03_metodologia.tex" 1764626928.35451 5114 cabfef53e6c522c448adb0001c88a807 ""
   "sections/04_implementacion.tex" 1764626933.98344 6451 7b2749ec1901807c99ade2f186cd9f37 ""
   "sections/05_resultados.tex" 1764626947.0571 8355 947bf710116658441c914005b8f97f03 ""
-  "sections/06_discusion.tex" 1764622036.05747 8449 422562117305d847be003db9558d94ed ""
-  "sections/07_conclusiones.tex" 1764622313.50192 8495 fd1081e29cbad3ad4f8f5aafcdfc1a43 ""
-  "sections/A1_apendices.tex" 1764629813.43523 10381 c9ebf9c1030141464af9d50030f23c2c ""
+  "sections/06_discusion.tex" 1765250426.48032 11034 fae8420d2f8f53e69188a495e2de7795 ""
+  "sections/07_conclusiones.tex" 1765252637.01418 17863 39f85f797ba9814196b8486a61ce2251 ""
+  "sections/A1_apendices.tex" 1765249883.60174 10358 b46f797faffa41cf6262beaf7cc5837e ""
   "tables/comparacion_qr_rfid.tex" 1764624665.44432 866 02585c88d181b8b49579c4694dc5014b ""
   "tables/frameworks_comparison.tex" 1764624634.521 650 1bb06de550c30298ea5ff27ea62fc44c ""
   "tables/metricas_desempeno_qr_rfid.tex" 1764624657.38335 753 5a8004e17a31c3d5528978126e5312ef ""

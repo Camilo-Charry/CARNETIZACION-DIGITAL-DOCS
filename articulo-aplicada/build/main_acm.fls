@@ -388,6 +388,9 @@ INPUT ./sections/A1_apendices.tex
 INPUT ./sections/A1_apendices.tex
 INPUT ./sections/A1_apendices.tex
 INPUT sections/A1_apendices.tex
+INPUT ./graphics/referencia.png
+INPUT ./graphics/referencia.png
+INPUT ./graphics/referencia.png
 INPUT build/main_acm.bbl
 INPUT build/main_acm.bbl
 INPUT build/main_acm.bbl
