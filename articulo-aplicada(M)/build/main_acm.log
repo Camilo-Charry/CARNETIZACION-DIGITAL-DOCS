@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.6)  9 DEC 2025 00:15
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.6)  9 DEC 2025 02:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2143,22 +2143,10 @@ File: graphics/Diagrama2.pdf Graphic file (type pdf)
 Class acmart Warning: A possible image without description on input line 157.
 
 (./tables/frameworks_comparison.tex
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 8.30396pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
-(Font)              scaled to size 6.22797pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 8.30469pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 6.22852pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 8.3031pt on input line 6.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 6.22733pt on input line 6.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 8.
+(Font)              scaled to size 7.0pt on input line 8.
 )) (./sections/05_resultados.tex
-Underfull \vbox (badness 1248) has occurred while \output is active []
+Underfull \vbox (badness 1735) has occurred while \output is active []
 
 [13.13]
 File: graphics/Diagrama1.pdf Graphic file (type pdf)
@@ -2173,16 +2161,13 @@ Class acmart Warning: A possible image without description on input line 24.
 
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 5.4pt on input line 42.
-
+) (./sections/06_discusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[14.14]) (./sections/06_discusion.tex
-Underfull \vbox (badness 1895) has occurred while \output is active []
-
-) (./sections/07_conclusiones.tex
+[14.14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[15.15]) (./sections/A1_apendices.tex
+) (./sections/07_conclusiones.tex [15.15]) (./sections/A1_apendices.tex
 Overfull \hbox (2.15796pt too wide) in paragraph at lines 8--9
 []\TU/LinLibertine(0)/b/n/9 Resultados\TU/LinLibertine(0)/m/n/9 : tablas/figura
 s generadas automáticamente en \TU/inconsolata(0)/m/n/9 buil-
@@ -2191,6 +2176,9 @@ s generadas automáticamente en \TU/inconsolata(0)/m/n/9 buil-
 ) (build/main_acm.bbl
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
 (Font)              scaled to size 7.0pt on input line 46.
+
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
 )
 
 Class acmart Warning: Some images may lack descriptions.
@@ -2230,12 +2218,12 @@ Package rerunfilecheck Info: File `main_acm.out' has not changed.
 (rerunfilecheck)             Checksum: BF9A88DC1D97E70D495B31071470C5A0;8729.
  ) 
 Here is how much of TeX's memory you used:
- 42062 strings out of 468179
- 859565 string characters out of 5435043
- 1718324 words of memory out of 5000000
- 70112 multiletter control sequences out of 15000+600000
- 636815 words of font info for 160 fonts, out of 8000000 for 9000
+ 42024 strings out of 468179
+ 858185 string characters out of 5435043
+ 1718341 words of memory out of 5000000
+ 70084 multiletter control sequences out of 15000+600000
+ 634756 words of font info for 146 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
  105i,13n,131p,1154b,32914s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_acm.xdv (16 pages, 1078392 bytes).
+Output written on build/main_acm.xdv (16 pages, 1077416 bytes).

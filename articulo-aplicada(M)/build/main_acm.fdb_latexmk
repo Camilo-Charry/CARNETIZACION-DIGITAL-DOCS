@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex build/main_acm"] 1765239316.55433 "build/main_acm.aux" "build/main_acm.bbl" "build/main_acm" 1765239329.53474 0
+["bibtex build/main_acm"] 1765240553.1827 "build/main_acm.aux" "build/main_acm.bbl" "build/main_acm" 1765246415.75312 0
   "./bibliography/references.bib" 1764703273.42657 6869 8da454eb6a5efef9bb57e77a069fe49b ""
   "/opt/texlive/texdir/texmf-dist/bibtex/bst/acmart/ACM-Reference-Format.bst" 1748720794 93560 12e0ced1522ea2bfa9b2fb12855c7e9e ""
-  "build/main_acm.aux" 1765239327.49193 9263 2351726eabf33505621d45fc208ca1bb "xelatex"
+  "build/main_acm.aux" 1765246413.91059 9301 264107147558c01ec28240d4cb7f9bcd "xelatex"
   (generated)
   "build/main_acm.bbl"
   "build/main_acm.blg"
   (rewritten before read)
-["xdvipdfmx"] 1765239328.73534 "build/main_acm.xdv" "build/main_acm.pdf" "build/main_acm" 1765239329.5879 0
-  "build/main_acm.xdv" 1765239327.54676 1078392 8fd241296eaf461141f2555622115f65 "xelatex"
+["xdvipdfmx"] 1765246415.04489 "build/main_acm.xdv" "build/main_acm.pdf" "build/main_acm" 1765246415.79651 0
+  "build/main_acm.xdv" 1765246413.96162 1077416 c57853d669bc492ab758187f89b89341 "xelatex"
   (generated)
   "build/main_acm.pdf"
   (rewritten before read)
-["xelatex"] 1765239316.83775 "main_acm.tex" "build/main_acm.xdv" "main_acm" 1765239329.54453 0
+["xelatex"] 1765246404.86902 "main_acm.tex" "build/main_acm.xdv" "main_acm" 1765246415.76142 0
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -22,9 +22,7 @@
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm" 1136768653 1508 3b32edd0d68f6498a5a375e78f9edc5e ""
-  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm" 1136768653 1528 e2423ae06dc7dee599cceb79d1c9dc32 ""
-  "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1136768653 1524 d89e2d087a9828407a196f428428ef4a ""
   "/opt/texlive/texdir/texmf-dist/tex/generic/babel-spanish/spanish.ldf" 1622145181 26965 3b6d1655ad716f98e788b1fb9f2e87b8 ""
   "/opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty" 1761181259 145885 784cdd1ebbc3dbacabd5ee30707617a3 ""
@@ -153,10 +151,10 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1762424039 5947754 aa53328f3f4a7a1d69b44072218190e0 ""
   "/opt/texlive/texdir/texmf.cnf" 1759376174 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "build/main_acm.aux" 1765239327.49193 9263 2351726eabf33505621d45fc208ca1bb "xelatex"
-  "build/main_acm.bbl" 1765239316.74424 11929 97e8ec6c1c3eb9399b765cab8e11f156 "bibtex build/main_acm"
-  "build/main_acm.log" 1765239327.54839 95878 548304a2b4dc70d50f8d1979235b4edd "xelatex"
-  "build/main_acm.out" 1765239327.51696 8729 bf9a88dc1d97e70d495b31071470c5a0 "xelatex"
+  "build/main_acm.aux" 1765246413.91059 9301 264107147558c01ec28240d4cb7f9bcd "xelatex"
+  "build/main_acm.bbl" 1765240553.33614 11929 97e8ec6c1c3eb9399b765cab8e11f156 "bibtex build/main_acm"
+  "build/main_acm.log" 1765246413.96261 95040 ba994cf0b306d38e6ba4b5a4763f9c80 "xelatex"
+  "build/main_acm.out" 1765246413.93985 8729 bf9a88dc1d97e70d495b31071470c5a0 "xelatex"
   "graphics/Diagrama1.pdf" 1765238709.15854 275497 b5fa9f132ec63b48c3b5d2ade27262c9 ""
   "graphics/Diagrama2.pdf" 1765238739.85921 56924 c688c622f5b99e630c8e12335a7e07f0 ""
   "includes/preamble_acm.tex" 1762828227.65787 118 3f1ba5b5d56dca6cd0336ca2b9c163d0 ""
@@ -171,7 +169,7 @@
   "sections/06_discusion.tex" 1765234845.20038 4519 c12f58772912a45f551da2d6409659b1 ""
   "sections/07_conclusiones.tex" 1765236563.1031 3937 8834525afaee0156ec98756145bce761 ""
   "sections/A1_apendices.tex" 1762828227.71742 498 b075d2900eb5d79fc7fdfa021d1f7513 ""
-  "tables/frameworks_comparison.tex" 1762828227.72907 546 c397dccf8db1704f4103e3e48dd344b5 ""
+  "tables/frameworks_comparison.tex" 1765240623.15539 444 252be669e89b68dd25b5d05e37eba887 ""
   (generated)
   "build/main_acm.aux"
   "build/main_acm.log"

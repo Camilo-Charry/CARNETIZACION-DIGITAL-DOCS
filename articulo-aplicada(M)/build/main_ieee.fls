@@ -286,9 +286,6 @@ INPUT ./graphics/Diagrama2.pdf
 INPUT ./tables/frameworks_comparison.tex
 INPUT ./tables/frameworks_comparison.tex
 INPUT tables/frameworks_comparison.tex
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT ./sections/05_resultados.tex
 INPUT ./sections/05_resultados.tex
 INPUT ./sections/05_resultados.tex

@@ -353,12 +353,6 @@ INPUT ./graphics/Diagrama2.pdf
 INPUT ./tables/frameworks_comparison.tex
 INPUT ./tables/frameworks_comparison.tex
 INPUT tables/frameworks_comparison.tex
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT ./sections/05_resultados.tex
 INPUT ./sections/05_resultados.tex
 INPUT ./sections/05_resultados.tex

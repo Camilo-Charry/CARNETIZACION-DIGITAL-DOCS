@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.6)  9 DEC 2025 00:15
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.6)  9 DEC 2025 02:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1701,7 +1701,11 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 
 [48] (build/main_apa7.ttt
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 8.
+(Font)              <10> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 8.
 )
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
@@ -1790,12 +1794,12 @@ Package logreq Info: Writing requests to 'main_apa7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43731 strings out of 468179
- 930076 string characters out of 5435043
- 1995714 words of memory out of 5000000
- 71857 multiletter control sequences out of 15000+600000
- 660213 words of font info for 79 fonts, out of 8000000 for 9000
+ 43772 strings out of 468179
+ 930676 string characters out of 5435043
+ 1995732 words of memory out of 5000000
+ 71887 multiletter control sequences out of 15000+600000
+ 674586 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,12n,118p,1155b,5682s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_apa7.xdv (55 pages, 1058516 bytes).
+Output written on build/main_apa7.xdv (55 pages, 1057688 bytes).
