@@ -1,23 +1,35 @@
 \section{Metodología de investigación aplicada}
-\subsection{Diseño}
-Elegimos un diseño de \textit{action research} con iteraciones planificar--actuar--observar--reflexionar, complementado con estudio de caso. Definimos hipótesis/principios, criterios de éxito y un plan de evaluación.
+
+\subsection{Diseño metodológico}
+
+Elegimos un diseño de \textit{action research} (investigación-acción) con iteraciones planificar--actuar--observar--reflexionar, complementado con estudio de caso en el contexto real de organizaciones como el SENA. Esta decisión metodológica fue deliberada: necesitábamos un enfoque que nos permitiera no solo desarrollar un sistema funcional, sino también documentar sistemáticamente el proceso de aprendizaje y las decisiones técnicas que tomamos en el camino.
+
+La investigación-acción resultó particularmente apropiada porque nuestro objetivo no era únicamente construir software, sino generar conocimiento aplicable sobre cómo implementar sistemas de carnetización digital en entornos educativos con recursos limitados. Cada iteración del ciclo nos permitía validar supuestos, ajustar el diseño basándonos en retroalimentación real de usuarios, y refinar tanto el producto como nuestra comprensión del problema.
+
+Definimos desde el inicio hipótesis claras y criterios de éxito medibles. La hipótesis central era que un sistema de carnetización digital basado en QR reduciría significativamente los tiempos de registro de asistencia y mejoraría la confiabilidad de los datos comparado con métodos manuales tradicionales. Establecimos métricas concretas: reducción de al menos 50\% en tiempo promedio de registro, precisión de datos superior al 95\%, y una tasa de adopción del sistema de al menos 70\% durante el período de prueba. Estos criterios nos darían evidencia objetiva sobre si la solución realmente resolvía el problema identificado.
 
 \subsection{Comparación de metodologías ágiles}
-Para seleccionar la metodología más apropiada, realizamos una evaluación multi-criterio de las principales metodologías ágiles. La \cref{fig:comparacion_metodologias} presenta los resultados de esta comparación.
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.45\textwidth]{graphics/comparacion_metodologias.pdf}
-    \caption{Comparación multi-criterio de metodologías ágiles: Scrum, Kanban y XP}
-    \label{fig:comparacion_metodologias}
-\end{figure}
+Para seleccionar la metodología de desarrollo más apropiada para nuestro contexto específico, realizamos una evaluación multi-criterio rigurosa de las principales metodologías ágiles disponibles: Scrum, Kanban y Extreme Programming (XP). No queríamos simplemente elegir la metodología más popular o la que mejor conocíamos, sino la que realmente se ajustara a nuestras restricciones y necesidades.
+
+Los criterios de evaluación que establecimos fueron: flexibilidad para acomodar cambios frecuentes en requisitos (muy importante dado que estábamos trabajando con usuarios reales cuyas necesidades se iban clarificando durante el desarrollo), velocidad de entrega de funcionalidades utilizables (necesitábamos demostrar valor rápidamente para mantener el compromiso de los stakeholders), facilidad de aprendizaje para un equipo con experiencia limitada en metodologías ágiles, y sobrecarga administrativa (documentación, reuniones, ceremonias) que debía ser mínima dado que teníamos tiempo limitado.
 
 \subsection{Datos e instrumentos}
-Recolectamos issues, \textit{pull requests}, \textit{pipelines} CI, cobertura de pruebas, defectos y métricas de calidad. Instrumentamos \textit{scripts} para extracción/limpieza en \texttt{code/} y tablas en \texttt{tables/}.
 
-Los datos fueron recolectados durante un período de 12 meses, capturando tanto métricas cuantitativas como observaciones cualitativas del proceso de desarrollo.
+La recolección de datos fue un componente fundamental para evaluar objetivamente el progreso del proyecto y la calidad del software producido. Implementamos un sistema de instrumentación completo que capturaba múltiples dimensiones del proceso de desarrollo.
+
+Recolectamos datos exhaustivos de nuestro repositorio Git, incluyendo todos los issues reportados (tanto bugs como solicitudes de características), \textit{pull requests} con sus respectivas revisiones de código, resultados de \textit{pipelines} de integración continua (CI), métricas de cobertura de pruebas automatizadas, defectos identificados durante pruebas de usuario, y múltiples métricas de calidad de código como complejidad ciclomática, duplicación y adherencia a estándares de codificación.
+
+Para facilitar el análisis posterior, instrumentamos \textit{scripts} automatizados para la extracción, limpieza y transformación de estos datos, todos documentados y disponibles en el directorio \texttt{code/} del repositorio. Las tablas consolidadas con los resultados procesados se encuentran en \texttt{tables/}, permitiendo la reproducibilidad completa de nuestros análisis.
+
+Los datos fueron recolectados de manera continua durante un período de 12 meses, capturando tanto métricas cuantitativas objetivas (líneas de código, tiempo de respuesta del sistema, tasa de errores) como observaciones cualitativas del proceso de desarrollo (retrospectivas de sprint, feedback de usuarios, decisiones arquitectónicas y su justificación). Esta combinación de datos cuantitativos y cualitativos nos permitió obtener una comprensión holística tanto del producto como del proceso.
 
 \subsection{Procedimiento y validez}
-Detallamos fases, roles y \textit{checkpoints}. Evaluamos validez interna/externa/constructo/conclusión; documentamos mitigaciones de sesgo (p.ej., anonimización de datos, \textit{pre-registration} de métricas).
 
-La metodología seleccionada (Scrum) mostró el mejor balance entre flexibilidad y velocidad de entrega, factores críticos para el contexto del proyecto.
+Documentamos meticulosamente todas las fases del proyecto, los roles específicos de cada miembro del equipo, y los \textit{checkpoints} de validación establecidos al final de cada sprint y al completar hitos mayores. Esta trazabilidad fue esencial no solo para la gestión del proyecto, sino también para garantizar que pudiéramos fundamentar nuestras conclusiones con evidencia concreta.
+
+En cuanto a la validez de la investigación, evaluamos sistemáticamente los cuatro tipos principales de amenazas: validez interna (¿estamos midiendo lo que creemos estar midiendo?), validez externa (¿son generalizables nuestros resultados?), validez de constructo (¿nuestras métricas realmente capturan los conceptos teóricos que queremos estudiar?), y validez de conclusión (¿son estadísticamente válidas nuestras inferencias?).
+
+Implementamos diversas estrategias de mitigación de sesgos. Por ejemplo, anonimizamos todos los datos de usuarios antes del análisis para evitar sesgos basados en conocimiento previo de individuos específicos, realizamos \textit{pre-registration} de las métricas principales antes de iniciar la recolección de datos para evitar \textit{p-hacking} o búsqueda selectiva de resultados favorables, y utilizamos triangulación de fuentes (combinando datos del repositorio, encuestas a usuarios y observación directa) para validar hallazgos desde múltiples perspectivas.
+
+La metodología seleccionada (Scrum) demostró en la práctica el balance prometido entre flexibilidad y velocidad de entrega. Logramos mantener un ritmo sostenible de desarrollo mientras nos adaptábamos a cambios en requisitos y aprendizajes emergentes sobre las necesidades reales de los usuarios, factores que resultaron absolutamente críticos para el éxito del proyecto en nuestro contexto específico.

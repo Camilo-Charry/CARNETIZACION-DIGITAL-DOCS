@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{7}
+\begin{thebibliography}{20}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -36,83 +36,240 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[Beck(2003)]%
-        {beck2003testdriven}
-\bibfield{author}{\bibinfo{person}{Kent Beck}.}
-  \bibinfo{year}{2003}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Test-Driven Development: By Example}}.
-\newblock \bibinfo{publisher}{Addison-Wesley Professional}.
-\newblock
-\showISBNx{0321146530}
-
-
-\bibitem[Chen(2015)]%
-        {chen2015devops}
-\bibfield{author}{\bibinfo{person}{Lianping Chen}.}
-  \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Continuous Delivery: Huge Benefits, but Challenges
-  Too}. In \bibinfo{booktitle}{\emph{IEEE Software}},
-  Vol.~\bibinfo{volume}{32}. \bibinfo{pages}{50--54}.
-\newblock
-\href{https://doi.org/10.1109/MS.2015.27}{doi:\nolinkurl{10.1109/MS.2015.27}}
-
-
-\bibitem[Fitzpatrick and Storey(2017)]%
-        {fitzpatrick2017risks}
-\bibfield{author}{\bibinfo{person}{Gerald Fitzpatrick} {and}
-  \bibinfo{person}{Margaret-Anne Storey}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{The Risks of Good Enough Software Engineering}.
-\newblock \bibinfo{journal}{\emph{IEEE Software}} \bibinfo{volume}{34},
-  \bibinfo{number}{6} (\bibinfo{year}{2017}), \bibinfo{pages}{14--19}.
-\newblock
-\href{https://doi.org/10.1109/MS.2017.4121224}{doi:\nolinkurl{10.1109/MS.2017.4121224}}
-
-
-\bibitem[Forsgren(2021)]%
-        {dora2021metrics}
-\bibfield{author}{\bibinfo{person}{Nicole Forsgren}.}
-  \bibinfo{year}{2021}\natexlab{}.
-\newblock \showarticletitle{DORA Metrics in Practice}.
-\newblock \bibinfo{journal}{\emph{ACM Queue}} (\bibinfo{year}{2021}).
-\newblock
-\urldef\tempurl%
-\url{https://queue.acm.org/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[Forsgren et~al\mbox{.}(2018)]%
-        {forsgren2018accelerate}
-\bibfield{author}{\bibinfo{person}{Nicole Forsgren}, \bibinfo{person}{Jez
-  Humble}, {and} \bibinfo{person}{Gene Kim}.} \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Accelerate: The Science of Lean Software and
-  DevOps}.
-\newblock \bibinfo{journal}{\emph{IT Revolution}} (\bibinfo{year}{2018}).
+\bibitem[Al~Amin et~al\mbox{.}(2024)]%
+        {alamin2024qr_attendance_covid}
+\bibfield{author}{\bibinfo{person}{I.~H. Al~Amin}, \bibinfo{person}{V.
+  Lusiana}, \bibinfo{person}{B. Hartono}, {and} \bibinfo{person}{D. Wahyu}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{QR Code-Based Attendance System for Contact
+  Tracking Post-Pandemic}.
+\newblock \bibinfo{journal}{\emph{CogITo Smart Journal}} \bibinfo{volume}{10},
+  \bibinfo{number}{1} (\bibinfo{year}{2024}), \bibinfo{pages}{15--29}.
 \newblock
 
 
-\bibitem[Fowler and Foemmel(2006)]%
-        {fowler2006continuous}
-\bibfield{author}{\bibinfo{person}{Martin Fowler} {and}
-  \bibinfo{person}{Matthew Foemmel}.} \bibinfo{year}{2006}\natexlab{}.
-\newblock \showarticletitle{Continuous Integration}. In
-  \bibinfo{booktitle}{\emph{ThoughtWorks}}.
+\bibitem[Babatunde et~al\mbox{.}(2022)]%
+        {babatunde2022geo_face_attendance}
+\bibfield{author}{\bibinfo{person}{A.~N. Babatunde}, \bibinfo{person}{A.~A.
+  Oke}, \bibinfo{person}{R.~S. Babatunde}, \bibinfo{person}{O. Ibitoye}, {and}
+  \bibinfo{person}{E.~R. Jimoh}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Mobile Based Student Attendance System Using
+  Geo-Fencing With Timing and Face Recognition}.
+\newblock \bibinfo{journal}{\emph{Journal of Advanced Mathematics and
+  Computational Science}} (\bibinfo{year}{2022}).
 \newblock
-\urldef\tempurl%
-\url{https://martinfowler.com/articles/continuousIntegration.html}
-\showURL{%
-\tempurl}
 
 
-\bibitem[Martin(2008)]%
-        {martin2008clean}
-\bibfield{author}{\bibinfo{person}{Robert~C. Martin}.}
-  \bibinfo{year}{2008}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Clean Code: A Handbook of Agile Software
-  Craftsmanship}}.
-\newblock \bibinfo{publisher}{Prentice Hall}.
+\bibitem[Brunete and Cedazo(2018)]%
+        {brunete2018dynamic_booster_attendance}
+\bibfield{author}{\bibinfo{person}{A. Brunete} {and} \bibinfo{person}{R.
+  Cedazo}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A Dynamic-Booster and Attendance-Tracking App for
+  Interactive Classroom Teaching}. In \bibinfo{booktitle}{\emph{ICERI2018
+  Proceedings}}. \bibinfo{pages}{1827--1833}.
 \newblock
-\showISBNx{9780132350884}
+
+
+\bibitem[Collins(2025)]%
+        {collins2025event_qr_checkin}
+\bibfield{author}{\bibinfo{person}{R. Collins}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Event Management System with QR Code-Based
+  Check-in}.
+\newblock \bibinfo{journal}{\emph{Scientific Journal of Artificial Intelligence
+  and Blockchain Technologies}} \bibinfo{volume}{2}, \bibinfo{number}{3}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{18--25}.
+\newblock
+
+
+\bibitem[Deshmukh et~al\mbox{.}(2024)]%
+        {deshmukh_qr_attendance_india}
+\bibfield{author}{\bibinfo{person}{R. Deshmukh}, \bibinfo{person}{H.
+  Manvatkar}, \bibinfo{person}{R. Malonde}, \bibinfo{person}{R. Mahalle},
+  \bibinfo{person}{R. Ramavat}, {and} \bibinfo{person}{A.~R. Bhuyar}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{A QR-Based Attendance Management System for
+  Educational Institutions}.
+\newblock \bibinfo{journal}{\emph{International Journal of Innovative Research
+  and Interdisciplinary Development}} (\bibinfo{year}{2024}).
+\newblock
+
+
+\bibitem[Dongre and Verma(2021)]%
+        {dongre2021iot_blockchain_qr}
+\bibfield{author}{\bibinfo{person}{P. Dongre} {and} \bibinfo{person}{P.
+  Verma}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{An IoT-Based Private Blockchain Framework for
+  Attendance Management Using QR Code}. In \bibinfo{booktitle}{\emph{First
+  International Conference on Advanced Scientific Innovation in Science,
+  Engineering and Technology}}. \bibinfo{pages}{43}.
+\newblock
+
+
+\bibitem[Eme(2024)]%
+        {eme2024qr_idcard_auth}
+\bibfield{author}{\bibinfo{person}{O. Eme}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Quick Response (QR) Code-Based Identity Card
+  Processing and Authentication System for Educational Institutions}. In
+  \bibinfo{booktitle}{\emph{SOS 2024 Conference Proceedings}}.
+\newblock
+
+
+\bibitem[Hamzah et~al\mbox{.}(2021)]%
+        {hamzah2021qr_uitm}
+\bibfield{author}{\bibinfo{person}{S.~S. Hamzah}, \bibinfo{person}{U.~F.
+  Bahrin}, \bibinfo{person}{S.~N.~S. Yasin}, \bibinfo{person}{Z.~D. Eri}, {and}
+  \bibinfo{person}{H.~A. M.~A. Majid}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Design and Development of Student Attendance System
+  Using QR-Code for UiTM Cawangan Terengganu}. In \bibinfo{booktitle}{\emph{IOP
+  Conference Series: Materials Science and Engineering}},
+  Vol.~\bibinfo{volume}{1176}. \bibinfo{pages}{012031}.
+\newblock
+
+
+\bibitem[Hendrawan et~al\mbox{.}(2025)]%
+        {hendrawan2025qr_slr_education}
+\bibfield{author}{\bibinfo{person}{J. Hendrawan}, \bibinfo{person}{I.~D.
+  Perwitasari}, {and} \bibinfo{person}{F. Maulana}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{QR Code-Based Attendance Systems in Education: A
+  Systematic Literature Review on Data Accuracy and Sustainable School
+  Management}. In \bibinfo{booktitle}{\emph{Proceedings of the International
+  Conference on Computer Science, Engineering, Social Science, and
+  Multi-Disciplinary Studies (CESSMUDS)}}, Vol.~\bibinfo{volume}{1}.
+  \bibinfo{pages}{80--87}.
+\newblock
+
+
+\bibitem[Julian and Triayudi(2021)]%
+        {julian2021user_satisfaction_event}
+\bibfield{author}{\bibinfo{person}{B. Julian} {and} \bibinfo{person}{A.
+  Triayudi}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{User Satisfaction Analysis for Event Management
+  Systems Using RAD and PIECES Framework}. In \bibinfo{booktitle}{\emph{IOP
+  Conference Series: Materials Science and Engineering}},
+  Vol.~\bibinfo{volume}{1088}. \bibinfo{pages}{012024}.
+\newblock
+
+
+\bibitem[Kumar(2024)]%
+        {kumar_genai_architecture}
+\bibfield{author}{\bibinfo{person}{R. Kumar}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Generative AI in Software Architecture:
+  Transforming Design and Development Processes}.
+\newblock \bibinfo{journal}{\emph{Software Architecture Journal}}
+  (\bibinfo{year}{2024}).
+\newblock
+
+
+\bibitem[Mares et~al\mbox{.}(2018)]%
+        {mares2018rfid_event}
+\bibfield{author}{\bibinfo{person}{L.~A.~S. Mares}, \bibinfo{person}{R.~V.
+  Téllez}, {and} \bibinfo{person}{D.~A.~T. Frausto}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Aplicación móvil para el control de asistencia a
+  eventos aplicando tecnología RFID}.
+\newblock \bibinfo{journal}{\emph{Jóvenes en la Ciencia}}  \bibinfo{volume}{4}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{156--159}.
+\newblock
+
+
+\bibitem[Matz et~al\mbox{.}(2023)]%
+        {matz2023student_retention_ml}
+\bibfield{author}{\bibinfo{person}{S.~C. Matz}, \bibinfo{person}{C.~S. Bukow},
+  \bibinfo{person}{H. Peters}, \bibinfo{person}{C. Deacons},
+  \bibinfo{person}{A. Dinu}, {and} \bibinfo{person}{C. Stachl}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Using Machine Learning to Predict Student Retention
+  from Socio-Demographic Characteristics and App-Based Engagement Metrics}.
+\newblock \bibinfo{journal}{\emph{Scientific Reports}} \bibinfo{volume}{13},
+  \bibinfo{number}{1} (\bibinfo{year}{2023}), \bibinfo{pages}{5705}.
+\newblock
+
+
+\bibitem[Nwabuwe et~al\mbox{.}(2023)]%
+        {nwabuwe2023fraud_mitigation_qr}
+\bibfield{author}{\bibinfo{person}{A. Nwabuwe}, \bibinfo{person}{B. Sanghera},
+  \bibinfo{person}{T. Alade}, {and} \bibinfo{person}{F. Olajide}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Fraud Mitigation in Attendance Monitoring Systems
+  Using Dynamic QR Code, Geofencing and IMEI Technologies}.
+\newblock \bibinfo{journal}{\emph{International Journal of Advanced Computer
+  Science and Applications}} \bibinfo{volume}{14}, \bibinfo{number}{4}
+  (\bibinfo{year}{2023}), \bibinfo{pages}{938--945}.
+\newblock
+
+
+\bibitem[Perin(2025)]%
+        {perin2025qr_case_study_bisu}
+\bibfield{author}{\bibinfo{person}{M.~A.~D. Perin}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Technology-Assisted Attendance Monitoring: A Case
+  Study on QR Code System Usability and Performance}.
+\newblock \bibinfo{journal}{\emph{Journal of Technology-Assisted Learning}}
+  \bibinfo{volume}{1}, \bibinfo{number}{2} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{115--123}.
+\newblock
+
+
+\bibitem[Rajendran and Hamzah(2021)]%
+        {rajendran2021qr_event}
+\bibfield{author}{\bibinfo{person}{J. Rajendran} {and}
+  \bibinfo{person}{M.~H.~I. Hamzah}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{QR Code Based Event Management System}.
+\newblock \bibinfo{journal}{\emph{Applied Information Technology And Computer
+  Science}} \bibinfo{volume}{2}, \bibinfo{number}{1} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{124--143}.
+\newblock
+
+
+\bibitem[Razzaq and Ghayyur(2023)]%
+        {razzaq2023monolith_microservices}
+\bibfield{author}{\bibinfo{person}{A. Razzaq} {and} \bibinfo{person}{S.~A.
+  Ghayyur}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{The New Age of Software Architecture from
+  Monolithic to Microservice Architecture---Awareness and Challenges}.
+\newblock \bibinfo{journal}{\emph{Computer Applications in Engineering
+  Education}} \bibinfo{volume}{31}, \bibinfo{number}{2} (\bibinfo{year}{2023}),
+  \bibinfo{pages}{421--451}.
+\newblock
+
+
+\bibitem[Selvam and Harun(2023)]%
+        {selvam2023bkmi_event_qr_2fa}
+\bibfield{author}{\bibinfo{person}{H.~T. Selvam} {and} \bibinfo{person}{N.~Z.
+  Harun}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{BKMI Event Management System Using QR Code and
+  Two-Factor Authentication}.
+\newblock \bibinfo{journal}{\emph{Applied Information Technology And Computer
+  Science}} \bibinfo{volume}{4}, \bibinfo{number}{2} (\bibinfo{year}{2023}),
+  \bibinfo{pages}{334--350}.
+\newblock
+
+
+\bibitem[Siew et~al\mbox{.}(2023)]%
+        {siew2023face_qr_attendance}
+\bibfield{author}{\bibinfo{person}{E.~S.~K. Siew}, \bibinfo{person}{Z.~Y.
+  Chong}, \bibinfo{person}{S.~N. Sze}, {and} \bibinfo{person}{R. Hardi}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Streamlining Attendance Management in Education: A
+  Web-Based System Combining Facial Recognition and QR Code Technology}.
+\newblock \bibinfo{journal}{\emph{Journal of Advanced Research in Applied
+  Sciences and Engineering Technology}} \bibinfo{volume}{33},
+  \bibinfo{number}{2} (\bibinfo{year}{2023}), \bibinfo{pages}{198--208}.
+\newblock
+
+
+\bibitem[Zihan and Islam(2024)]%
+        {zihan2024dl_qr_verification}
+\bibfield{author}{\bibinfo{person}{D. Zihan} {and} \bibinfo{person}{M.~R.
+  Islam}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Deep Learning Approaches for Robust QR Code
+  Extraction and Verification in Music Applications}.
+\newblock \bibinfo{journal}{\emph{Journal of Platform Technology}}
+  \bibinfo{volume}{12}, \bibinfo{number}{5} (\bibinfo{year}{2024}),
+  \bibinfo{pages}{23--32}.
+\newblock
 
 
 \end{thebibliography}

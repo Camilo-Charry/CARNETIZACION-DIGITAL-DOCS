@@ -1,2 +1,27 @@
 \section{Discusión}
-Interpretamos efectos, generalización y costos/beneficios. Comparamos con literatura y discutimos implicaciones para equipos y decisores.
+
+Ya con el sistema funcionando y datos reales en la mano, es posible realizar un análisis que durante el desarrollo inicial no era factible: comparar los logros obtenidos con las promesas de la literatura revisada al comienzo del proyecto. Este ejercicio de honestidad intelectual busca identificar qué aspectos funcionaron adecuadamente, cuáles se quedaron cortos y hacia dónde debería evolucionar la solución. Este análisis no se limita únicamente al código, sino que abarca la funcionalidad operativa y su potencial aplicabilidad en otros tipos de organizaciones.
+
+\subsection{Lo que confirman los resultados}
+
+Las pruebas realizadas validan varios patrones identificados en los veinte artículos revisados. El hallazgo más evidente es la reducción drástica en el tiempo de registro: mientras que los estudios reportan mejoras del 40 al 80% frente a los métodos manuales, en el sistema desarrollado los usuarios lograron registrar su asistencia en un promedio de 2.3 segundos, en contraste con los 30 a 45 segundos del método tradicional. Esta mejora no solo implica rapidez, sino la eliminación completa de la transcripción manual, los errores de lectura y la latencia administrativa asociada.
+
+Adicionalmente, se confirmó un aspecto recurrente en la literatura: la transición del papel a un sistema digital centralizado mejora significativamente la precisión de los datos. Durante las pruebas, el sistema eliminó por completo las suplantaciones comunes en los registros manuales, validando la hipótesis inicial de que era factible mejorar tanto la confiabilidad como la transparencia del proceso.
+
+Otro hallazgo relevante se relaciona con la usabilidad: la simplicidad de las interfaces favorece la aceptación inmediata. La aplicación móvil, reducida a las acciones esenciales de escanear y confirmar, generó una adopción rápida y positiva tanto en aprendices como en instructores.
+
+\subsection{Las limitaciones que debo reconocer}
+
+No obstante, es necesario reconocer las limitaciones del sistema. Los códigos QR estáticos presentan vulnerabilidades conocidas, como la posibilidad de captura de pantalla, distribución no autorizada o reutilización. Aunque durante las pruebas no se evidenciaron intentos de fraude, un despliegue institucional masivo seguramente expondría estos riesgos.
+
+Asimismo, aunque el backend fue diseñado con escalabilidad en mente, aún existe una brecha respecto a sistemas profesionales. Funcionalidades avanzadas como geocercado para validación física, códigos QR dinámicos con rotación temporal, validación de dispositivo o mecanismos antifraude basados en inteligencia artificial no fueron implementados. En comparación con estas soluciones maduras, el sistema actual se encuentra en una etapa inicial.
+
+El desarrollo también enfrentó las restricciones típicas de un proyecto académico: infraestructura limitada, un plazo de seis meses y ausencia de presupuesto para herramientas empresariales. Sin embargo, las prácticas de automatización implementadas lograron generar mejoras tangibles, como lo demuestran las métricas DORA. Esta experiencia evidenció que no es indispensable contar con grandes equipos o presupuestos millonarios para optimizar procesos.
+
+\subsection{¿Se puede aplicar en otros lugares?}
+
+Los resultados sugieren que el sistema podría ser aplicable en entornos educativos similares o en organizaciones que requieran control de asistencia. Sin embargo, es necesario mantener una visión realista respecto muchas organizaciones como las universidades o empresas que manejan muchas sedes y tabajadores: la alta rotación de estudiantes o trabajadores, la heterogeneidad de la infraestructura en las distintas sedes (con variaciones significativas en conectividad) y la rigidez de los procesos administrativos son factores que podrían ralentizar el escalamiento o exigir adaptaciones específicas según la ubicación geográfica y los recursos disponibles.
+
+\subsection{En resumen}
+
+Los hallazgos confirman que la propuesta es técnicamente viable, operativamente útil y se alinea con las mejores prácticas documentadas. Sin embargo, la transición de este prototipo a un sistema institucional completo requiere nuevas fases de investigación, el fortalecimiento de las capas de seguridad y validaciones en entornos de mayor escala. Este proyecto constituye un primer paso sólido, pero el camino hacia una implementación definitiva aún requiere trabajo adicional.

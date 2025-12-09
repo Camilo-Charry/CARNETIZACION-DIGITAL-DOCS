@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.6)  20 NOV 2025 12:44
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.6)  9 DEC 2025 00:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2047,64 +2047,101 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 31.
 (./sections/00_abstract.tex
-Overfull \hbox (3.70378pt too wide) in paragraph at lines 3--4
-[]\TU/LinLibertine(0)/b/n/9 Sistema de Carnetización Digital y Gestión de Event
-os: Una
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+) (./sections/01_introduccion.tex
+Underfull \vbox (badness 2134) has occurred while \output is active []
+
+[1.1
+
+]
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 7.2pt on input line 26.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (4.29305pt too wide) in paragraph at lines 30--31
-\TU/LinLibertine(0)/m/n/9 eventos, Asistencia automatizada, RFID, Transformació
-n digital edu-
- []
-
-) (./sections/01_introduccion.tex [1.1
-
-]) (./sections/02_relacionados.tex) (./sections/03_metodologia.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1.
+(Font)              scaled to size 9.0pt on input line 29.
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 1.
+(Font)              scaled to size 7.0pt on input line 29.
 [2.2]
-File: graphics/comparacion_metodologias.pdf Graphic file (type pdf)
-<use graphics/comparacion_metodologias.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Class acmart Warning: A possible image without description on input line 13.
+[3.3]
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 64.
+
+Overfull \hbox (2.1435pt too wide) in paragraph at lines 82--83
+[]\TU/LinLibertine(0)/m/n/9 Las tecnologías específicas empleadas por cada proy
+ecto (QR
+ []
+
+[4.4] [5.5]) (./sections/02_relacionados.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[6.6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+[7.7]
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[8.8]) (./sections/03_metodologia.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `inconsolata' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (3.55005pt too wide) in paragraph at lines 16--17
-[]\TU/LinLibertine(0)/m/n/9 Recolectamos issues, \TU/LinLibertine(0)/m/it/9 pul
-l requests\TU/LinLibertine(0)/m/n/9 , \TU/LinLibertine(0)/m/it/9 pipelines \TU/
-LinLibertine(0)/m/n/9 CI, cobertura de prue-
+Underfull \vbox (badness 5533) has occurred while \output is active []
+
+[9.9]
+Overfull \hbox (1.954pt too wide) in paragraph at lines 33--34
+[]\TU/LinLibertine(0)/m/n/9 Implementamos diversas estrategias de mitigación de
+ sesgos. Por
  []
 
 ) (./sections/04_implementacion.tex
-Overfull \hbox (3.96474pt too wide) in paragraph at lines 2--3
-[]\TU/LinLibertine(0)/m/n/9 Describimos arquitectura, decisiones tecnológicas y
- \TU/LinLibertine(0)/m/it/9 pipelines\TU/LinLibertine(0)/m/n/9 . Do-
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-File: graphics/correlacion_devops.pdf Graphic file (type pdf)
-<use graphics/correlacion_devops.pdf>
+[10.10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Class acmart Warning: A possible image without description on input line 12.
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstlang1.sty
+[11.11] (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 33.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 33.
+(Font)              scaled to size 5.0pt on input line 91.
+
+LaTeX Font Warning: Font shape `TU/inconsolata(0)/m/it' undefined
+(Font)              using `TU/inconsolata(0)/m/n' instead on input line 96.
+
+
+Overfull \hbox (4.27454pt too wide) in paragraph at lines 143--144
+[]\TU/LinLibertine(0)/m/n/9 La Tabla []1[] resume de manera condensada esta com
+paración multi-
+ []
+
+
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+[12.12]
+File: graphics/Diagrama2.pdf Graphic file (type pdf)
+<use graphics/Diagrama2.pdf>
+
+Class acmart Warning: A possible image without description on input line 157.
+
 (./tables/frameworks_comparison.tex
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(1)/m/n' will be
 (Font)              scaled to size 8.30396pt on input line 6.
@@ -2120,29 +2157,32 @@ LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
 (Font)              scaled to size 6.22733pt on input line 6.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 8.0pt on input line 8.
-[3.3])) (./sections/05_resultados.tex
-File: graphics/metricas_dora.pdf Graphic file (type pdf)
-<use graphics/metricas_dora.pdf>
+)) (./sections/05_resultados.tex
+Underfull \vbox (badness 1248) has occurred while \output is active []
 
-Overfull \hbox (1.87193pt too wide) in paragraph at lines 11--12
- [][] 
- []
+[13.13]
+File: graphics/Diagrama1.pdf Graphic file (type pdf)
+<use graphics/Diagrama1.pdf>
 
-
-Class acmart Warning: A possible image without description on input line 14.
-
-File: graphics/evolucion_metricas.pdf Graphic file (type pdf)
-<use graphics/evolucion_metricas.pdf>
-
-Overfull \hbox (1.87193pt too wide) in paragraph at lines 21--22
+Overfull \hbox (12.0pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
 
 Class acmart Warning: A possible image without description on input line 24.
 
-) (./sections/06_discusion.tex) (./sections/07_conclusiones.tex) (./sections/A1
-_apendices.tex
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 5.4pt on input line 42.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[14.14]) (./sections/06_discusion.tex
+Underfull \vbox (badness 1895) has occurred while \output is active []
+
+) (./sections/07_conclusiones.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[15.15]) (./sections/A1_apendices.tex
 Overfull \hbox (2.15796pt too wide) in paragraph at lines 8--9
 []\TU/LinLibertine(0)/b/n/9 Resultados\TU/LinLibertine(0)/m/n/9 : tablas/figura
 s generadas automáticamente en \TU/inconsolata(0)/m/n/9 buil-
@@ -2150,9 +2190,7 @@ s generadas automáticamente en \TU/inconsolata(0)/m/n/9 buil-
 
 ) (build/main_acm.bbl
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 7.0pt on input line 43.
-[4.4]
-LaTeX Info: Redefining \tempurl on input line 102.
+(Font)              scaled to size 7.0pt on input line 46.
 )
 
 Class acmart Warning: Some images may lack descriptions.
@@ -2170,13 +2208,14 @@ rtant steps when creating your papers will ensure that the widest possible audi
 ence can ingest your work..
 
 
-Overfull \vbox (1.13101pt too high) has occurred while \output is active []
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/opt/texlive/texdir/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-) [5.5] (build/main_acm.aux
+) [16.16] (build/main_acm.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -2184,16 +2223,19 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `main_acm.out' has not changed.
-(rerunfilecheck)             Checksum: 592594CD2F85B23769D1F87B36ABC206;6176.
+(rerunfilecheck)             Checksum: BF9A88DC1D97E70D495B31071470C5A0;8729.
  ) 
 Here is how much of TeX's memory you used:
- 42013 strings out of 468179
- 857980 string characters out of 5435043
- 1565076 words of memory out of 5000000
- 70064 multiletter control sequences out of 15000+600000
- 636677 words of font info for 157 fonts, out of 8000000 for 9000
+ 42062 strings out of 468179
+ 859565 string characters out of 5435043
+ 1718324 words of memory out of 5000000
+ 70112 multiletter control sequences out of 15000+600000
+ 636815 words of font info for 160 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
- 105i,12n,131p,1005b,32922s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,13n,131p,1154b,32914s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_acm.xdv (5 pages, 224884 bytes).
+Output written on build/main_acm.xdv (16 pages, 1078392 bytes).

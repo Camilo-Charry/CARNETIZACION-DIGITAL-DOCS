@@ -1,32 +1,9 @@
+Durante el desarrollo de esta investigación tuve la oportunidad de leer con calma y tomar notas de 20 artículos científicos especializados, y algo empezó a repetirse una y otra vez: el problema que yo veía todos los días en el SENA también aparecía en universidades, colegios y empresas de otros países. Los sistemas tradicionales de control de asistencia, basados en hojas físicas, planillas de Excel o dispositivos aislados, no solo se quedaban cortos frente a las necesidades actuales, sino que además generaban una carga administrativa enorme para docentes y coordinadores. Esa coincidencia entre lo que mostraba la literatura y lo que yo vivía en el aula fue el punto de partida para tomar en serio la idea de diseñar una solución propia.
 
+Al contrastar esos estudios con mi experiencia, quedó claro que los métodos convencionales presentan fallas en varios frentes a la vez. Por un lado, la precisión de los datos se ve comprometida: firmas ilegibles, listas que se traspapelan o registros que nunca se consolidan en un sistema central. Por otro, la vulnerabilidad al fraude es evidente; es relativamente fácil que un compañero firme por otro o que alguien reporte una asistencia que en realidad no ocurrió. A esto se suma el tiempo que se pierde en cada jornada pasando lista y, quizás lo más frustrante de todo, la dificultad para generar reportes oportunos y confiables cuando una coordinación académica o un área de talento humano los solicita. En la práctica, la información existe, pero está fragmentada y no siempre se puede usar para tomar decisiones.
 
-\textbf{Sistema de Carnetización Digital y Gestión de Eventos: Una Solución Tecnológica Basada en Códigos QR}
+Frente a ese panorama, con mi equipo decidimos dejar de pensar solo en una “app para pasar lista” y plantear algo más amplio: un Sistema de Carnetización Digital y Gestión de Eventos que funcionara como un eje central de identidad y asistencia. La idea fue diseñar una arquitectura híbrida que concentrara en un solo lugar la información de los actores institucionales —estudiantes, instructores y personal administrativo— y que, al mismo tiempo, ofreciera herramientas sencillas para el día a día. Esto se tradujo en dos componentes que trabajan de la mano: una plataforma web pensada para quienes gestionan eventos, grupos y reportes, y una aplicación móvil enfocada en el usuario final, donde el escaneo de un código QR se convierte en la acción principal.
 
-\textbf{Autor:} Marcos Rojas Alvarez \\
-\textbf{Programa:} ADSO - 2900177 \\
-\textbf{Instructor:} Jesús Ariel González Bonilla \\
-\textbf{Institución:} SENA - Centro de la Industria, la Empresa y los Servicios
+La plataforma web, desarrollada con Angular, nació con una intención muy concreta: que cualquier coordinador o instructor pudiera crear eventos, consultar listados de aprendices y descargar reportes sin necesitar conocimientos técnicos avanzados. Se cuidó que la interfaz fuera clara, con pantallas que hablen el mismo lenguaje que se usa en el centro de formación: fichas, ambientes, horarios, jornadas. En paralelo, la aplicación móvil construida con React Native se diseñó pensando en la experiencia del aprendiz y del personal de control de acceso: abrir la app, apuntar la cámara al código del carné o del evento y recibir de inmediato una confirmación visual y sonora de que la asistencia quedó registrada.
 
-\textbf{Resumen Ejecutivo}
-
-Durante mi investigación, analicé  detalladamente 20 artículos científicos especializados que confirmaron una problemática recurrente: los sistemas tradicionales de control de asistencia en instituciones educativas y empresas presentan deficiencias estructurales significativas. Los métodos convencionales basados en registros físicos y listas manuales enfrentan desafíos críticos relacionados con la precisión de los datos, vulnerabilidad ante falsificaciones, ineficiencia temporal y dificultades para generar reportes confiables.
-
-La propuesta de nuestro equipo consiste en desarrollar un Sistema de Carnetización Digital y Gestión de Eventos mediante una arquitectura híbrida que centraliza la información de todos los actores institucionales: estudiantes, profesores y personal administrativo. La solución automatiza el proceso de registro de asistencia a través de dos componentes integrados: una plataforma web para administradores y una aplicación móvil para usuarios finales.
-
-\textbf{Decisiones Tecnológicas}
-
-Tras evaluar las alternativas tecnológicas disponibles en la literatura especializada, se decidio por implementar códigos QR estáticos como mecanismo principal de identificación. Esta decisión se fundamenta en tres factores clave: inversión inicial mínima, compatibilidad universal con dispositivos móviles, y simplicidad en la integración con sistemas existentes.
-
-Si bien consideramos la tecnología RFID por sus ventajas en velocidad de lectura y experiencia de usuario, se  a restricciones presupuestarias y temporales. Esta decisión estratégica permite establecer una base funcional sólida sin comprometer la escalabilidad del sistema.
-
-\textbf{Resultados Esperados}
-
-El sistema desarrollado aborda directamente las ineficiencias administrativas identificadas, con proyecciones de reducción del 70\% en los tiempos de registro. Adicionalmente, automatiza la generación de reportes estadísticos y establece una infraestructura escalable que facilitará la incorporación de mejoras futuras en seguridad y funcionalidades avanzadas.
-
-\textbf{Reflexión Personal}
-
-Aunque este proyecto demuestra solidez en su concepción técnica, reconozco oportunidades de expansión significativas. La integración de RFID en fases posteriores, la implementación de analíticas predictivas basadas en los datos de asistencia, y la expansión hacia un ecosistema multiplataforma representan evoluciones naturales de esta solución inicial.
-
-\textbf{Palabras clave:} Carnetización digital, Códigos QR, Gestión de eventos, Asistencia automatizada, RFID, Transformación digital educativa
-
-\textbf{Index Terms:} Buenas prácticas, Ingeniería de software, Investigación aplicada, Reproducibilidad
+En el corazón de todo el sistema se encuentra el backend desarrollado en C\# y .NET, que se encarga de orquestar la lógica de negocio: validar credenciales, generar y asociar códigos QR, registrar entradas y salidas, y construir los reportes que luego se muestran en la web. Toda esta información se almacena en una base de datos PostgreSQL, elegida por su estabilidad y por la facilidad para trabajar con relaciones entre tablas como usuarios, eventos, roles y asistencias. Desde el punto de vista personal, uno de los aprendizajes más valiosos fue ver cómo estas tecnologías, que al principio parecían piezas sueltas, empezaron a encajar en un sistema coherente que responde a un problema real de nuestro entorno y abre la puerta a futuras mejoras, como incorporar QR dinámicos, geolocalización o incluso RFID cuando las condiciones lo permitan.

@@ -3071,21 +3071,26 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">forsgren2018accelerate</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">dora2021metrics</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">martin2008clean</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">beck2003testdriven</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">fowler2006continuous</bcf:citekey>
-    <bcf:citekey order="5" intorder="2">chen2015devops</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">forsgren2018accelerate</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">fitzpatrick2017risks</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">beck2003testdriven</bcf:citekey>
-    <bcf:citekey order="8" intorder="2">fowler2006continuous</bcf:citekey>
-    <bcf:citekey order="8" intorder="3">martin2008clean</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">forsgren2018accelerate</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">dora2021metrics</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">fitzpatrick2017risks</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">chen2015devops</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">rajendran2021qr_event</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">hamzah2021qr_uitm</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">deshmukh_qr_attendance_india</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">hendrawan2025qr_slr_education</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">alamin2024qr_attendance_covid</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">perin2025qr_case_study_bisu</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">mares2018rfid_event</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">siew2023face_qr_attendance</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">nwabuwe2023fraud_mitigation_qr</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">dongre2021iot_blockchain_qr</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">brunete2018dynamic_booster_attendance</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">zihan2024dl_qr_verification</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">matz2023student_retention_ml</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">babatunde2022geo_face_attendance</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">selvam2023bkmi_event_qr_2fa</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">collins2025event_qr_checkin</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">eme2024qr_idcard_auth</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">julian2021user_satisfaction_event</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">razzaq2023monolith_microservices</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">kumar_genai_architecture</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

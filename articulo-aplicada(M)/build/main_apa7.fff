@@ -2,8 +2,8 @@
 \ifnextchar[{\eatarg}{}
 [htbp]
     \centering
-    \includegraphics[width=0.45\textwidth]{graphics/comparacion_metodologias.pdf}
-    \caption{Comparación multi-criterio de metodologías ágiles: Scrum, Kanban y XP}
+    \includegraphics[width=0.45\textwidth]{graphics/Diagrama2.pdf}
+    \caption{Comparación multi-criterio de tegnologias : RFID, Codigo QR y metodologia tradicional}
     \label{fig:comparacion_metodologias}
 \end{figure*}
 \efloatseparator
@@ -12,27 +12,7 @@
 \ifnextchar[{\eatarg}{}
 [htbp]
     \centering
-    \includegraphics[width=0.46\textwidth]{graphics/correlacion_devops.pdf}
-    \caption{Correlación entre nivel de automatización y performance del equipo de desarrollo}
-    \label{fig:correlacion_devops}
-\end{figure*}
-\efloatseparator
- 
-\begin{figure*}[hbt]
-\ifnextchar[{\eatarg}{}
-[htbp]
-    \centering
-    \includegraphics[width=0.48\textwidth]{graphics/metricas_dora.pdf}
-    \caption{Métricas DORA por equipo: frecuencia de deployment y lead time}
+    \includegraphics[width=0.5\textwidth]{graphics/Diagrama1.pdf}
+    \caption{Evolución de métricas DORA: frecuencia de despliegue (azul), defectos en producción (rojo) y tiempo de reproceso (naranja).}
     \label{fig:metricas_dora}
-\end{figure*}
-\efloatseparator
- 
-\begin{figure*}[hbt]
-\ifnextchar[{\eatarg}{}
-[htbp]
-    \centering
-    \includegraphics[width=0.48\textwidth]{graphics/evolucion_metricas.pdf}
-    \caption{Evolución temporal de métricas de calidad durante el año 2024}
-    \label{fig:evolucion_metricas}
 \end{figure*}

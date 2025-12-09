@@ -1,6 +1,25 @@
 \section{Conclusiones y trabajo futuro}
-Este estudio demuestra que la aplicación sistemática de buenas prácticas de desarrollo \cite{beck2003testdriven,fowler2006continuous,martin2008clean} produce mejoras medibles en calidad y eficiencia. Los resultados confirman las predicciones del marco DORA \cite{forsgren2018accelerate,dora2021metrics} sobre la correlación entre prácticas técnicas y rendimiento organizacional.
 
-Las limitaciones incluyen el contexto específico del estudio y la necesidad de replicación en diferentes organizaciones, como sugiere \cite{fitzpatrick2017risks}. El trabajo futuro explorará la adaptación de estas prácticas a diferentes dominios y la automatización de su medición siguiendo los principios de entrega continua \cite{chen2015devops}.
+El desarrollo del Sistema de Carnetización Digital y Gestión de Eventos evidenció que la digitalización del control de asistencia es una realidad factible para el diferentes organizaciones, generando beneficios tangibles y medibles. El proyecto validó empíricamente que una solución basada en códigos QR, soportada por una arquitectura web y móvil robusta, puede sustituir eficazmente los métodos manuales tradicionales. La reducción en los tiempos de registro —de un rango de 30 a 45 segundos a un promedio de 2.3 segundos—, la eliminación de errores de transcripción y la mejora en la trazabilidad de los datos, sin requerir inversiones elevadas en infraestructura, constituyen avances significativos.
 
-Proponemos una lista priorizada de prácticas y condiciones de aplicabilidad. Liberamos artefactos y un \textit{runbook} de adopción para facilitar la reproducibilidad y transferencia a la industria.
+Desde la perspectiva de la ingeniería de software, la adopción disciplinada de prácticas profesionales como pruebas automatizadas, revisión de código, documentación continua y sprints cortos fue determinante. Las métricas DORA reflejan mejoras concretas: disminución de defectos, reducción en el tiempo de entrega de cambios y mayor estabilidad del sistema ante el incremento de funcionalidades. Esto confirma la pertinencia de estas metodologías, incluso en equipos pequeños y en contextos académicos con recursos limitados.
+
+\subsection{Limitaciones identificadas}
+
+No obstante, el sistema presenta limitaciones derivadas de su alcance inicial. El uso de códigos QR estáticos, aunque funcional para el prototipo, implica riesgos de seguridad en un despliegue masivo, como la posibilidad de suplantación mediante capturas de pantalla. Además, la evaluación se limitó a grupos pequeños, por lo que el comportamiento del sistema ante una alta concurrencia (por ejemplo, cientos de usuarios simultáneos) aún no ha sido validado. La infraestructura tecnológica de las prganizaciones también podría requerir ajustes para soportar monitoreo en tiempo real y analítica avanzada.
+
+\subsection{Trabajo futuro}
+
+Para abordar estas limitaciones y proyectar la solución a nivel institucional, se propone la siguiente hoja de ruta:
+
+\textbf{Seguridad y validación:} \begin{itemize} \item Implementación de \textbf{QR dinámicos} con rotación temporal para evitar la reutilización de capturas. \item Integración de \textbf{geocercado (GPS)} para verificar la ubicación física del aprendiz en el ambiente de formación. \item Validación de dispositivo mediante \textbf{IMEI o token único} para asegurar la identidad del usuario. \item Exploración de capas adicionales como reconocimiento facial ligero o cifrado \textit{end-to-end}. \end{itemize}
+
+\textbf{Integración y escalabilidad:} \begin{itemize} \item Conexión con los sistemas administrativos de las organizacion como por ejemplo el SENA para la automatización de reportes. \item Evolución de la arquitectura del backend hacia \textbf{microservicios} para soportar alta demanda. \end{itemize}
+
+\textbf{Inteligencia y analítica:} \begin{itemize} \item Aplicación de modelos de \textbf{machine learning} para la detección temprana de patrones de ausentismo y apoyo a estrategias de retención. \end{itemize}
+
+\textbf{Validación operativa:} \begin{itemize} \item Ejecución de un \textbf{piloto formal} en fichas seleccionadas para evaluar el desempeño en escenarios reales. \end{itemize}
+
+\subsection{Cierre}
+
+En conjunto, este proyecto establece una base sólida para la modernización del control de asistencia en diferentes organizaciones. Aunque requiere fases adicionales de maduración, demuestra que es posible implementar soluciones efectivas utilizando tecnologías accesibles, arquitecturas mantenibles y buenas prácticas de ingeniería. La propuesta responde a una problemática real observada durante la formación y ofrece un camino escalable para futuras innovaciones dentro de la entidad, cumpliendo con los objetivos planteados bajo restricciones de tiempo y presupuesto.

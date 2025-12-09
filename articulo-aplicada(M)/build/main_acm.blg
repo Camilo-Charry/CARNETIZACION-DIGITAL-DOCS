@@ -12,57 +12,67 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty address in beck2003testdriven
-Warning--can't use both volume and number fields in chen2015devops
-Warning--empty publisher in chen2015devops
-Warning--empty address in chen2015devops
-Warning--no number and no volume in dora2021metrics
-Warning--page numbers missing in both pages and numpages fields in dora2021metrics
-Warning--no number and no volume in forsgren2018accelerate
-Warning--page numbers missing in both pages and numpages fields in forsgren2018accelerate
-Warning--empty publisher in fowler2006continuous
-Warning--empty address in fowler2006continuous
-Warning--page numbers missing in both pages and numpages fields in fowler2006continuous
-Warning--empty address in martin2008clean
-You've used 7 entries,
+Warning--no number and no volume in babatunde2022geo_face_attendance
+Warning--page numbers missing in both pages and numpages fields in babatunde2022geo_face_attendance
+Warning--empty publisher in brunete2018dynamic_booster_attendance
+Warning--empty address in brunete2018dynamic_booster_attendance
+Warning--no number and no volume in deshmukh_qr_attendance_india
+Warning--page numbers missing in both pages and numpages fields in deshmukh_qr_attendance_india
+Warning--empty publisher in dongre2021iot_blockchain_qr
+Warning--empty address in dongre2021iot_blockchain_qr
+Warning--empty publisher in eme2024qr_idcard_auth
+Warning--empty address in eme2024qr_idcard_auth
+Warning--page numbers missing in both pages and numpages fields in eme2024qr_idcard_auth
+Warning--can't use both volume and number fields in hamzah2021qr_uitm
+Warning--empty publisher in hamzah2021qr_uitm
+Warning--empty address in hamzah2021qr_uitm
+Warning--can't use both volume and number fields in hendrawan2025qr_slr_education
+Warning--empty publisher in hendrawan2025qr_slr_education
+Warning--empty address in hendrawan2025qr_slr_education
+Warning--can't use both volume and number fields in julian2021user_satisfaction_event
+Warning--empty publisher in julian2021user_satisfaction_event
+Warning--empty address in julian2021user_satisfaction_event
+Warning--no number and no volume in kumar_genai_architecture
+Warning--page numbers missing in both pages and numpages fields in kumar_genai_architecture
+You've used 20 entries,
             6273 wiz_defined-function locations,
-            1560 strings with 19018 characters,
-and the built_in function-call counts, 6823 in all, are:
-= -- 878
-> -- 161
+            1624 strings with 22453 characters,
+and the built_in function-call counts, 23688 in all, are:
+= -- 3409
+> -- 668
 < -- 0
-+ -- 50
-- -- 65
-* -- 425
-:= -- 645
-add.period$ -- 36
-call.type$ -- 7
-change.case$ -- 39
-chr.to.int$ -- 7
-cite$ -- 19
-duplicate$ -- 640
-empty$ -- 456
-format.name$ -- 77
-if$ -- 1669
++ -- 230
+- -- 246
+* -- 1542
+:= -- 2147
+add.period$ -- 99
+call.type$ -- 20
+change.case$ -- 138
+chr.to.int$ -- 20
+cite$ -- 42
+duplicate$ -- 2077
+empty$ -- 1457
+format.name$ -- 310
+if$ -- 6104
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 26
-newline$ -- 105
-num.names$ -- 49
-pop$ -- 270
+missing$ -- 86
+newline$ -- 193
+num.names$ -- 140
+pop$ -- 831
 preamble$ -- 1
-purify$ -- 95
+purify$ -- 298
 quote$ -- 0
-skip$ -- 218
+skip$ -- 738
 stack$ -- 0
-substring$ -- 455
-swap$ -- 47
+substring$ -- 1693
+swap$ -- 215
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 138
-warning$ -- 12
-while$ -- 51
+type$ -- 404
+warning$ -- 22
+while$ -- 144
 width$ -- 0
-write$ -- 179
-(There were 12 warnings)
+write$ -- 411
+(There were 22 warnings)

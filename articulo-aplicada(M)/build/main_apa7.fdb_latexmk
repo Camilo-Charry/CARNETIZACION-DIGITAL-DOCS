@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber build/main_apa7"] 1763642706.31575 "build/main_apa7.bcf" "build/main_apa7.bbl" "build/main_apa7" 1763642721.44767 0
-  "bibliography/references.bib" 1762828227.56119 1887 1b333411cd59264f7258718d40d2ea2e ""
-  "build/main_apa7.bcf" 1763642720.2434 135053 bc28f5d8528ac5d2607659319a82911b "xelatex"
+["biber build/main_apa7"] 1765234486.07089 "build/main_apa7.bcf" "build/main_apa7.bbl" "build/main_apa7" 1765239345.58311 0
+  "bibliography/references.bib" 1764703273.42657 6869 8da454eb6a5efef9bb57e77a069fe49b ""
+  "build/main_apa7.bcf" 1765239344.15089 135608 b053301aae1f54bf4bc3dceff591bfa7 "xelatex"
   (generated)
   "build/main_apa7.bbl"
   "build/main_apa7.blg"
   (rewritten before read)
-["xdvipdfmx"] 1763642720.85853 "build/main_apa7.xdv" "build/main_apa7.pdf" "build/main_apa7" 1763642721.50748 0
-  "build/main_apa7.xdv" 1763642720.25365 205404 48cbeaf92e45f2d49399e3a4230fb7eb "xelatex"
+["xdvipdfmx"] 1765239344.81657 "build/main_apa7.xdv" "build/main_apa7.pdf" "build/main_apa7" 1765239345.62467 0
+  "build/main_apa7.xdv" 1765239344.16081 1058516 a9227d4cfce51abcf511cf9362e181a7 "xelatex"
   (generated)
   "build/main_apa7.pdf"
   (rewritten before read)
-["xelatex"] 1763642714.17498 "main_apa7.tex" "build/main_apa7.xdv" "main_apa7" 1763642721.45814 0
+["xelatex"] 1765239337.54285 "main_apa7.tex" "build/main_apa7.xdv" "main_apa7" 1765239345.59027 0
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm" 1254269338 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
@@ -209,27 +209,25 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1762424039 5947754 aa53328f3f4a7a1d69b44072218190e0 ""
   "/opt/texlive/texdir/texmf.cnf" 1759376174 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "build/main_apa7.aux" 1763642720.21482 8167 c17a789f7a6f448f4983128cb50ac662 "xelatex"
-  "build/main_apa7.bbl" 1763642707.64571 21132 037cc14b56a5f61402a1f5b3e4c3efeb "biber build/main_apa7"
-  "build/main_apa7.fff" 1763642719.65588 1168 b1fc0186cbfbf17a1ca3d7c270e9d0d4 "xelatex"
-  "build/main_apa7.out" 1763642720.23296 5215 fb330d12ee5a71bda4d9cd566fa5d075 "xelatex"
-  "build/main_apa7.run.xml" 1763642720.25213 2442 31f193e8afeb02e558f8318341b00aef "xelatex"
-  "build/main_apa7.ttt" 1763642719.59216 561 f53eb70a1c61c517958e5bce680bfcc8 "xelatex"
-  "graphics/comparacion_metodologias.pdf" 1762828227.59406 20100 e089cf178c4d2ae9c21f2e386949b091 ""
-  "graphics/correlacion_devops.pdf" 1762828227.61458 27499 a09bf7fcf11694c8b5682a29ed7a4a61 ""
-  "graphics/evolucion_metricas.pdf" 1762828227.62817 20577 c0c92e9f496546ad0f55478a4ddefe75 ""
-  "graphics/metricas_dora.pdf" 1762828227.64271 15676 72a5a4bf6414674b0aebf8a45dec73fb ""
+  "build/main_apa7.aux" 1765239344.10258 11683 1ba84251db85ba52b99e8fb570931e57 "xelatex"
+  "build/main_apa7.bbl" 1765234487.52954 76098 2d6eb8493ab2861a4a84adee22f25022 "biber build/main_apa7"
+  "build/main_apa7.fff" 1765239343.71975 627 83177597cb5be37431bc2dcfe4487e0a "xelatex"
+  "build/main_apa7.out" 1765239344.13855 7534 c9d6747a8f9e4adc7dce296be9cb7938 "xelatex"
+  "build/main_apa7.run.xml" 1765239344.15816 2442 31f193e8afeb02e558f8318341b00aef "xelatex"
+  "build/main_apa7.ttt" 1765239343.64182 561 f53eb70a1c61c517958e5bce680bfcc8 "xelatex"
+  "graphics/Diagrama1.pdf" 1765238709.15854 275497 b5fa9f132ec63b48c3b5d2ade27262c9 ""
+  "graphics/Diagrama2.pdf" 1765238739.85921 56924 c688c622f5b99e630c8e12335a7e07f0 ""
   "includes/preamble_apa7.tex" 1762828227.66038 164 9dc229ec09603f7c360024b06d3d1ae7 ""
   "includes/preamble_common.tex" 1762828227.66747 1297 07518923b9f4f85072fe97d52092a43e ""
   "main_apa7.tex" 1762828227.54176 874 f6a3feb73a2cbe68453999a10853d940 ""
-  "sections/00_abstract.tex" 1763641347.92312 3133 40603a7ec6b0d749d78583d2556a09c9 ""
-  "sections/01_introduccion.tex" 1763642531.41452 3545 5ac72e4324ed8158b1c921e61121e7cb ""
-  "sections/02_relacionados.tex" 1763642631.16437 5172 d8715859571ffb963f00c5307c17bbc1 ""
-  "sections/03_metodologia.tex" 1762828227.69616 1658 1810fa4007cbe0a22e249b4a3ea3e2ea ""
-  "sections/04_implementacion.tex" 1762828227.69951 1735 9db69bccd0083c52555fc9673733b1a0 ""
-  "sections/05_resultados.tex" 1762828227.70619 2158 41ce41896e0fd7c38d002c4883918a79 ""
-  "sections/06_discusion.tex" 1762828227.70671 159 fb2da45021c1c71bbb31dcbed088ed5f ""
-  "sections/07_conclusiones.tex" 1762828227.70671 983 5c0722d27b622e9f7d83da935bf7fcf3 ""
+  "sections/00_abstract.tex" 1764703696.26767 3969 16a75057fcee6966d791c124e1cda57e ""
+  "sections/01_introduccion.tex" 1765236915.42379 31057 0a7cd3f7d3c0d9e3bbd0f460b5aacb4e ""
+  "sections/02_relacionados.tex" 1765236604.48059 21419 955e380be71802869f06f7936465f357 ""
+  "sections/03_metodologia.tex" 1765239057.34449 6300 f1cc85a2800f6541602e333c339f13a0 ""
+  "sections/04_implementacion.tex" 1765239229.30893 21878 fdca74f20892f11c8f16cfeb4a260203 ""
+  "sections/05_resultados.tex" 1765239273.15379 8258 7e792deb0e8abd6e395355af21855f02 ""
+  "sections/06_discusion.tex" 1765234845.20038 4519 c12f58772912a45f551da2d6409659b1 ""
+  "sections/07_conclusiones.tex" 1765236563.1031 3937 8834525afaee0156ec98756145bce761 ""
   "sections/A1_apendices.tex" 1762828227.71742 498 b075d2900eb5d79fc7fdfa021d1f7513 ""
   "tables/frameworks_comparison.tex" 1762828227.72907 546 c397dccf8db1704f4103e3e48dd344b5 ""
   (generated)

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.6)  20 NOV 2025 12:45
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.6)  9 DEC 2025 00:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1241,6 +1241,8 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 [1
 
 ] (./sections/00_abstract.tex
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1248,38 +1250,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[2]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-4.
-(/opt/texlive/texdir/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmr' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-4.
-(/opt/texlive/texdir/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-24.
-(/opt/texlive/texdir/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-24.
-(/opt/texlive/texdir/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 24.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 24.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 24.
-)
+[2])
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1295,7 +1266,9 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[4]) (./sections/02_relacionados.tex
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1304,7 +1277,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [5]
-Underfull \vbox (badness 1867) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
@@ -1313,7 +1286,9 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[6]) (./sections/03_metodologia.tex
+[6]
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1322,14 +1297,8 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
 [7]
-\openout5 = `main_apa7.fff'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(main_apa7.fff)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) (./sections/04_implementacion.tex
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1337,12 +1306,325 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[8] (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstlang1.sty
+[8]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[9]
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[13]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[14]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+7.
+(/opt/texlive/texdir/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+7.
+(/opt/texlive/texdir/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+97.
+(/opt/texlive/texdir/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+97.
+(/opt/texlive/texdir/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 97.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 97.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 97.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[15]
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[16]) (./sections/02_relacionados.tex
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[17]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[23]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[25]
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[26]) (./sections/03_metodologia.tex
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[27]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[28]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[29]) (./sections/04_implementacion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[30]
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[35] (/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 33.
-(./tables/frameworks_comparison.tex
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 91.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[36]
+Underfull \vbox (badness 3417) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[37]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[39]
+\openout5 = `main_apa7.fff'.
+
+(main_apa7.fff) (./tables/frameworks_comparison.tex
 \openout4 = `main_apa7.ttt'.
 
 (main_apa7.ttt))) (./sections/05_resultados.tex
@@ -1353,7 +1635,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[9]) (./sections/06_discusion.tex) (./sections/07_conclusiones.tex
+[40]
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1361,7 +1643,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[10]) (./sections/A1_apendices.tex
+[41]
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1369,7 +1651,55 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[11] (build/main_apa7.ttt
+[42]) (./sections/06_discusion.tex
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[43]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[44]) (./sections/07_conclusiones.tex
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[45]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[46]) (./sections/A1_apendices.tex
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[47]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[48] (build/main_apa7.ttt
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 8.
 )
@@ -1380,11 +1710,11 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[12
+[49
 
 ] (build/main_apa7.fff
-File: graphics/comparacion_metodologias.pdf Graphic file (type pdf)
-<use graphics/comparacion_metodologias.pdf>
+File: graphics/Diagrama2.pdf Graphic file (type pdf)
+<use graphics/Diagrama2.pdf>
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1392,35 +1722,11 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[13
+[50
 
 ]
-File: graphics/correlacion_devops.pdf Graphic file (type pdf)
-<use graphics/correlacion_devops.pdf>
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[14
-
-]
-File: graphics/metricas_dora.pdf Graphic file (type pdf)
-<use graphics/metricas_dora.pdf>
-
-Package fancyhdr Warning: \headheight is too small (15.2pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
-
-[15
-
-]
-File: graphics/evolucion_metricas.pdf Graphic file (type pdf)
-<use graphics/evolucion_metricas.pdf>
+File: graphics/Diagrama1.pdf Graphic file (type pdf)
+<use graphics/Diagrama1.pdf>
 )
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
@@ -1429,7 +1735,7 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[16
+[51
 
 ])
 
@@ -1439,9 +1745,9 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[17
+[52
 
-] AED endfloat: Processing end Figures and Tables
+]
 
 Package fancyhdr Warning: \headheight is too small (15.2pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1449,10 +1755,26 @@ Package fancyhdr Warning: \headheight is too small (15.2pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
 
-[18
+[53
 
 
-] (build/main_apa7.aux
+]
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[54] AED endfloat: Processing end Figures and Tables
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.01004pt}.
+
+[55] (build/main_apa7.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -1462,18 +1784,18 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `main_apa7.out' has not changed.
-(rerunfilecheck)             Checksum: FB330D12EE5A71BDA4D9CD566FA5D075;5215.
+(rerunfilecheck)             Checksum: C9D6747A8F9E4ADC7DCE296BE9CB7938;7534.
 Package logreq Info: Writing requests to 'main_apa7.run.xml'.
 \openout1 = `main_apa7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43665 strings out of 468179
- 926607 string characters out of 5435043
- 1924113 words of memory out of 5000000
- 71795 multiletter control sequences out of 15000+600000
- 660189 words of font info for 76 fonts, out of 8000000 for 9000
+ 43731 strings out of 468179
+ 930076 string characters out of 5435043
+ 1995714 words of memory out of 5000000
+ 71857 multiletter control sequences out of 15000+600000
+ 660213 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,118p,1006b,5084s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,118p,1155b,5682s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main_apa7.xdv (18 pages, 205404 bytes).
+Output written on build/main_apa7.xdv (55 pages, 1058516 bytes).
